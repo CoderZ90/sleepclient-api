@@ -1,0 +1,581 @@
+    :root {
+    --ingame-bg: #0000004a;
+    --ts: #00000078;
+    --white: #ffffff;
+    }
+
+    /* Fonts */
+
+    @font-face {
+    font-family: gamefont;
+    src: url(https://fonts.gstatic.com/s/nunito/v20/XRXI3I6Li01BKofiOc5wtlZ2di8HDDsmdTQ3jw.woff2);
+    }
+
+    /* REMOVAL CSS BY ENVY */
+
+    /* Updated 11/20 */
+
+    /* Removal */
+
+    #hudClassIcon,
+    #ammoIcon,
+    #challIcon,
+    #timerIcon,
+    #mainLogo,
+    #curGameInfo > div {
+    display: none !important;
+    }
+    #aHolder,
+    #clientExit,
+    #rankedSoonTm,
+    #newsHolder,
+    #youNewDiv,
+    #onetrust-consent-sdk,
+    .weapKey,
+    .imageButton,
+    #editorBtnM,
+    .headerBarRight .verticalSeparator,
+    #seasonLabel,
+    .krSocial,
+    #mailCount,
+    #voiceDisplay,
+    #bubbleContainer,
+    .endAHolder,
+    #igXPBar,
+    .button.small.buttonO img,
+    #tlInfHold,
+    #loadEditrBtn,
+    .settingsBtn[onclick="openOneTrust()"],
+    .menuSocialB,
+    .setSugBox2,
+    #mainLogo,
+    #termsInfo :not(div[onClick*="Window(35)"]),
+    .menuItemTitle,
+    #weapDisplay,
+    #menuWindow::-webkit-scrollbar,
+    #maxHP,
+    #loadTipsHolder,
+    #loadInfoLHolder,
+    #loadInfoRHolder,
+    #curGameInfo,
+    #reloadMsg {
+    display: none !important;
+    }
+
+    .verticalSeparator {
+    background-color: transparent;
+    }
+
+    .button,
+    .button:hover,
+    .quickJoin,
+    .setHed {
+    border: hidden !important;
+    }
+
+    .button.buttonB {
+    height: 65px !important;
+    }
+    #subLogoButtons {
+    bottom: 8% !important;
+    }
+
+    /* Menu Item Container */
+
+    #menuItemContainer {
+    background-color: var(--ingame-bg);
+    }
+
+    .menuItem .menBtnIcn {
+    font-size: 45px !important;
+    }
+
+    /* HeaderBar */
+    .headerBar.headerBarRight {
+    background-color: transparent;
+    }
+
+    .headerBar {
+    background-color: var(--ingame-bg);
+    }
+
+    /* Chat Holder */
+
+    #chatInputHolder {
+    width: calc(100% + 40px) !important;
+    background-color: var(--ingame-bg);
+    border: none;
+    padding-left: 0;
+    }
+
+    #chatInput {
+    width: 80%;
+    margin-left: 25px;
+    background-color: transparent;
+    }
+
+    #chatSwitchHolder {
+    background-color: transparent;
+    display: inline-block;
+    position: absolute;
+    left: 5px;
+    }
+    /* ammo */
+
+    #ammoDisplay {
+    padding: 12px 5px !important;
+    height: 50px !important;
+    }
+
+    /* timer */
+
+    #timerDisplay {
+    align-items: center;
+    padding: 10px 7px 4px 7px !important;
+    height: 50px !important;
+    }
+
+    #timerVal {
+    position: relative;
+    }
+
+    /* MISC */
+
+    #ammoDisplay,
+    #hudClassIcon,
+    #hudClassIcon img,
+    #timerDisplay,
+    #leaderDisplay,
+    .countIcon,
+    #curGameInfo,
+    #menuWindow.dark,
+    .settingsHeader,
+    .setHed {
+    border-radius: 2px;
+    background-color: var(--ingame-bg);
+    }
+
+    #hudClassIcon img {
+    background-color: transparent;
+    }
+
+    #activateKDM,
+    .accountButton,
+    .loadoutBtn,
+    .settingsBtn,
+    .subPassChg,
+    .lnkTw,
+    .creatorCodeBtn,
+    .redVouchBtn,
+    #hostMenuBtn,
+    .hostCBtn,
+    .advancedToggle[style*="background-color"],
+    .updDisN,
+    .searchBtn,
+    .quickJoin,
+    .rnkShpBtn,
+    .hostPresetBtn,
+    .hostToggle,
+    #declineBtn,
+    .punishButton,
+    .compSwpTmB,
+    .joinBtn,
+    .openCollection,
+    .mapFndB,
+    .imageListAdd,
+    .bundlPopBuyB,
+    .menuItemTitle,
+    .menuItem::before,
+    .setHed,
+    .settName {
+    border-radius: 2px;
+    text-shadow: 0px -1.6px 0px var(--ts), 0px 1.6px 0px var(--ts),
+        2px 0px 0px var(--ts), -2px 0px 0px var(--ts), 1.6px 2px 0px var(--ts),
+        -1.6px 2px 0px var(--ts), 1.6px -2px 0px var(--ts),
+        -1.6px -2px 0px var(--ts) !important;
+    }
+
+    .settingsHeader {
+    position: relative;
+    }
+
+    #windowHolder {
+    background-color: transparent !important;
+    }
+
+    .settingsHeader {
+    background-color: transparent;
+    }
+
+    /* fps & ping */
+
+    #curGameInfo,
+    .debugInfo {
+    padding: 5px;
+    }
+
+    #curGameInfo div {
+    font-size: 0;
+    }
+
+    #pingDisplay .material-icons {
+    font-size: 20px !important;
+    }
+
+    .adsbygoogle.adsbygoogle-noablate {
+    display: none !important;
+    }
+
+    #instructions {
+    visibility: hidden;
+    }
+
+    #chatInput::placeholder {
+    color: transparent;
+    }
+
+    #chatInputHolder::before {
+    content: "";
+    position: absolute;
+    color: #fff;
+    bottom: 17px;
+    left: 70px;
+    opacity: 0.5;
+    pointer-events: none;
+    }
+
+    #chatHolder:focus-within #chatInputHolder::before {
+    opacity: 0;
+    }
+
+    #uiBase.onGame #chatHolder {
+    left: 20px !important;
+    bottom: 100px !important;
+    }
+
+    #chatList {
+    background-color: var(--ingame-bg);
+    width: 381px !important;
+    left: 0px;
+    bottom: 5px;
+    }
+
+    /* Ingame UI */
+
+    /* health */
+
+    #hudClassIcon {
+        display: none;
+    }
+
+    #healthValueHolder {
+        position: fixed;
+        right: calc(52% + 128px);
+        bottom: 30px;
+        background-color: transparent;
+        text-shadow: 2px 2px 0px #000 !important;
+        display: none;
+    }
+
+    #healthValue {
+        font-size: 64px;
+        color: #fff; !important
+        text-shadow: 2px 2px 0px #000 !important;
+        display: none;
+    }
+
+    #maxHP {
+        display: none;
+    }
+
+    .healthBarSeg {
+        width        : -webkit-fill-available;
+        margin-right : -1px;
+        border-radius: unset;
+        background   : transparent;
+    }
+
+    #healthBar {
+        width         : 380px;
+        height        : 20px;
+        color	  : red;
+        display       : flex;
+        flex-direction: none;
+        position      : fixed;
+        bottom        : 81px;
+        left          : 46%;
+        transform     : translateX(-50%);
+        background-color: rgba(0,0,0,0.4);
+        box-shadow: 5px 5px 0 rgba(0,0,0,.3);
+    }
+
+    .healthBarSeg{
+        box-shadow: 0 0 black;
+        background: transparent;
+    }
+
+    .hpBSeg /* Inner contents aka main healthbar segments */{
+        border-radius: 0;
+        box-shadow: none;
+    }
+
+    #challIcon {
+        transform: translateY(-12px);
+        filter: brightness(5);
+        margin-left: 12px;
+    }
+
+    /*Ammo*/
+
+    #ammoDisplay {
+        position: fixed;
+        left: calc(53% + 90px);
+        bottom: 70px;
+        font-size: 64px;
+        padding: 0;
+        background-position-y: 95px;
+        padding-bottom: 12px;
+        height: auto;
+        width: 200px;
+        text-align: end;
+        border-radius: 0;
+        background-color: transparent;
+        background-image: linear-gradient(90deg, var(--accent), var(--accent));
+        direction: rtl;
+    }
+
+    #ammoDisplay[style*="background-size: 0%;"] {
+        background-size: 100% !important;
+    }
+
+    #ammoVal {
+        font-size: 64px;
+        color: white;
+        text-shadow: 2px 2px 0px #000 !important;
+    }
+
+    #ammoMax {
+        display: none;
+    }
+
+    #ammoIcon {
+        height: 28px;
+        filter: brightness(5);
+        margin-left: 0;
+        margin-right: -12px;
+        display: none;
+    }
+
+    #faceItIconM,#rankedSoonTm,.headerBarRight,#infoHider,#newsHolder,#aHider {
+        display:none !important;
+    }
+
+    #killCardHolder {
+        bottom: 20px;
+    }
+
+    #reloadMsg {
+        bottom: 150px;
+        text-shadow: 2px 2px 3px rgba(30, 30, 30, .5);
+    }
+
+    /*Start of Krunker*/
+
+    #initLoader {
+    background: #000;
+    }
+
+    #loadTipsHolder,
+    #lC-img,
+    #loadGamNm,
+    #aHolder,
+    #loadEditrBtn,
+    .lC-l,
+    .lC-t,
+    #lC-img,
+    .lC-b,
+    .lC-bt,
+    #bubbleContainer,
+    .lC-r,
+    #loadInfoLHolder {
+    display: none !important;
+    }
+    .lC-sides {
+    animation: initial;
+    transform-style: preserve-3d;
+    transform: initial;
+    }
+    #lC-cont {
+    display: block;
+    width: 300px;
+    }
+
+    #lC-cont:before {
+    content: "Loading...";
+    color: #fff;
+    display: block;
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 2px;
+    width: 100%;
+    text-align: left;
+    }
+    .lC-cube,
+    .lC-cube * {
+    width: 300px;
+    height: 25px;
+    position: absolute;
+    margin: 0;
+    }
+
+    .lC-cube {
+    transform: translate(0, 0);
+    border: 2px inset var(--black);
+    margin: 0;
+    }
+    #loadInfoRHolder {
+    font-size: 0px;
+    }
+    #loadInfoRHolder:before {
+    content: "CSS created by Ghosty";
+    font-size: 20px;
+    color: #fff;
+    }
+
+    .lC-f {
+    animation: loader 10s ease forwards;
+    background: ghostwhite;
+    color: #fff;
+    padding: 0px;
+    margin: 0;
+    width: 0;
+    }
+    @keyframes loader {
+    0% {
+        width: 0;
+    }
+
+    20% {
+        width: 10%;
+    }
+
+    25% {
+        width: 24%;
+    }
+
+    43% {
+        width: 41%;
+    }
+
+    56% {
+        width: 50%;
+    }
+
+    66% {
+        width: 52%;
+    }
+
+    71% {
+        width: 60%;
+    }
+
+    75% {
+        width: 76%;
+    }
+
+    94% {
+        width: 86%;
+    }
+
+    100% {
+        width: 100%;
+    }
+    }
+
+    /* counters */
+
+    .topRightCounters {
+        position: fixed;
+        bottom: 55px;
+        right: 15px;
+    }
+
+    .countIcon {
+        background-color: transparent;
+        border-radius: 0;
+        margin-left: 20px;
+        margin-bottom: 615px;
+        padding: 7px;
+    }
+
+    #deathsVal,
+    #killsVal,
+    #livesDisp,
+    #streakVal,
+    #myScoreVal {
+        color: white !important;
+        bottom: 7px;
+        font-size: 36px;
+        display: flex;
+        justify-content: center;
+        text-shadow: 2px 2px 3px rgba(30, 30, 30, .5);
+    }
+
+    #deathsVal::after,
+    #killsVal::after,
+    #streakVal::after,
+    #myScoreVal::after,
+    #livesDisp::after {
+        display: block;
+        position: fixed;
+        margin-top: 45px;
+        font-size: 14px;
+        text-shadow: 2px 2px 3px rgba(30, 30, 30, .5);
+    }
+
+    #deathsVal::after {
+        content: 'Deaths';
+    }
+
+    #killsVal::after {
+        content: 'Kills';
+    }
+
+    #streakVal::after {
+        content: 'Streak';
+    }
+
+    #myScoreVal::after {
+        content: 'Score';
+    }
+
+    #livesDisp::after {
+        content: 'Lives';
+    }
+
+    #killsIcon,
+    #deathsIcon,
+    #streakIcon,
+    #scoreCount .material-icons,
+    #livesCount .material-icons {
+        display: none;
+    }
+
+    .kfItem {
+        border-radius: 10px;
+        background-color: var(--ingame-bg-color);
+    }
+
+    #killStreakHolder {
+        position: fixed;
+        bottom: 75px;
+        right: 15px;
+        margin-right: 0;
+        margin-bottom: 0;
+    }
+
+    .killStreakItem {
+        width: 50px;
+        height: 50px;
+        background-color: transparent;
+    }

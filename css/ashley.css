@@ -1,0 +1,21 @@
+@import url(https://ashevoy.github.io/kc/latest.css);
+
+:root {
+    --mainc: #302c29;
+    /* main color (backgrounds etc,). default: 302c29 */
+    
+    --borderstext: #000;
+    /*default is 000*/
+
+    --textc: #ffffff;
+    /* default is ffffff */
+
+    --linkd: #ff4fb9;
+    /* link color, default is ff4fb9 */
+
+    --text2c: #ff4fb9;
+    /* text such as fps, ping etc */
+
+    --hide: -50%;
+    /* put -50% if u wanna hide the menu timer */
+}

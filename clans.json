@@ -1,0 +1,7 @@
+{
+  "clns": {
+    "[FLOT]": {
+      "sty": "background-image: linear-gradient(to right, purple, blue);-webkit-background-clip: text;color: transparent !important;"
+    }
+  }
+}
