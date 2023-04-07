@@ -1,0 +1,308 @@
+#hiddenClasses {
+  display: flex !important;
+  flex-direction: row;
+  position: fixed;
+  left: 50%;
+  bottom: 1%;
+  transform: translate(-50%, -50%);
+  margin-right: 10px;
+}
+
+#menuClassPicker0[onclick="selectClass(0)"] {
+  display: block;
+  width: 70px;
+  height: 70px;
+  content: url(https://assets.krunker.io/textures/classes/icon_0.png);
+  pointer-events: auto;
+  image-rendering: pixelated;
+  margin-right: 10px;
+  padding: 5px;
+}
+
+#menuClassPicker0[onclick="selectClass(0)"]:hover {
+  cursor: pointer;
+  filter: drop-shadow(0 0 10px var(--accent-color));
+}
+
+#menuClassPicker1[onclick="selectClass(1)"] {
+  display: block;
+  width: 70px;
+  height: 70px;
+  content: url(https://assets.krunker.io/textures/classes/icon_1.png);
+  pointer-events: auto;
+  image-rendering: pixelated;
+  margin-right: 10px;
+  padding: 5px;
+}
+
+#menuClassPicker1[onclick="selectClass(1)"]:hover {
+  cursor: pointer;
+  filter: drop-shadow(0 0 10px var(--accent-color));
+}
+
+#menuClassPicker2[onclick="selectClass(2)"] {
+  display: block;
+  width: 70px;
+  height: 70px;
+  content: url(https://assets.krunker.io/textures/classes/icon_2.png);
+  pointer-events: auto;
+  image-rendering: pixelated;
+  margin-right: 10px;
+  padding: 5px;
+}
+
+#menuClassPicker2[onclick="selectClass(2)"]:hover {
+  cursor: pointer;
+  filter: drop-shadow(0 0 10px var(--accent-color));
+}
+
+#menuClassPicker3[onclick="selectClass(3)"] {
+  display: block;
+  width: 70px;
+  height: 70px;
+  content: url(https://assets.krunker.io/textures/classes/icon_3.png);
+  pointer-events: auto;
+  image-rendering: pixelated;
+  margin-right: 10px;
+  padding: 5px;
+}
+
+#menuClassPicker3[onclick="selectClass(3)"]:hover {
+  cursor: pointer;
+  filter: drop-shadow(0 0 10px var(--accent-color));
+}
+
+#menuClassPicker5[onclick="selectClass(5)"] {
+  display: block;
+  width: 70px;
+  height: 70px;
+  content: url(https://assets.krunker.io/textures/classes/icon_5.png);
+  pointer-events: auto;
+  image-rendering: pixelated;
+  margin-right: 10px;
+}
+
+#menuClassPicker5[onclick="selectClass(5)"]:hover {
+  cursor: pointer;
+  filter: drop-shadow(0 0 10px var(--accent-color));
+}
+
+#menuClassPicker6[onclick="selectClass(6)"] {
+  display: block;
+  width: 70px;
+  height: 70px;
+  content: url(https://assets.krunker.io/textures/classes/icon_6.png);
+  pointer-events: auto;
+  image-rendering: pixelated;
+  margin-right: 10px;
+}
+
+#menuClassPicker6[onclick="selectClass(6)"]:hover {
+  cursor: pointer;
+  filter: drop-shadow(0 0 10px var(--accent-color));
+}
+#menuClassPicker12[onclick="selectClass(12)"] {
+  display: block;
+  width: 70px;
+  height: 70px;
+  content: url(https://assets.krunker.io/textures/classes/icon_12.png);
+  pointer-events: auto;
+  image-rendering: pixelated;
+  margin-right: 10px;
+}
+
+#menuClassPicker12[onclick="selectClass(12)"]:hover {
+  cursor: pointer;
+  filter: drop-shadow(0 0 10px var(--accent-color));
+}
+
+:root {
+  --accent: #ff0031;
+}
+
+:root {
+  --accent: #ff0031;
+}
+
+@font-face {
+  font-family: gamefont;
+  src: url(https://raw.githubusercontent.com/South-Paw/typeface-vag-rounded/master/files/vag-rounded-400.woff2);
+}
+
+#mainLogo {
+  display: none;
+}
+*::-webkit-scrollbar {
+  display: none;
+}
+
+.button,
+.button:hover {
+  border: hidden !important;
+}
+
+#leaderDisplay {
+  background-color: rgba(0, 0, 0, 0.2) !important;
+}
+
+#seasonLabel {
+  display: none;
+}
+
+.headerBar {
+  background-color: transparent;
+}
+
+#hudClassIcon {
+  display: none;
+}
+
+#healthValueHolder {
+  background-color: transparent;
+  padding: 0 !important;
+  margin: 0 !important;
+  bottom: 1%;
+  transform: translateX(50%);
+  position: fixed;
+}
+
+#healthValue {
+  font-size: 80px !important;
+  text-shadow: 2px 2px 4px #000;
+}
+
+#maxHP {
+  display: none;
+}
+
+#healthBar {
+  display: none;
+}
+
+.hpBSeg,
+.healthBarSeg {
+  display: none;
+}
+
+#challIcon {
+  display: none !important;
+}
+
+#ammoDisplay {
+  background-color: transparent !important;
+  background-image: linear-gradient(90deg, var(--accent), var(--accent));
+  background-position-y: 92px;
+  border-radius: 0px;
+  padding: 0;
+  padding-bottom: 32px;
+  padding-top: 0;
+  padding-left: 0;
+  padding-right: 0 !important;
+  position: fixed;
+  bottom: 6%;
+  left: 96.3%;
+  justify-content: center;
+  text-align: center;
+  transform: translateX(-50%);
+}
+
+#ammoVal {
+  font-size: 70px;
+  color: var(--accent);
+  text-shadow: 2px 2px 0px #000 !important;
+}
+
+#ammoMax {
+  display: none;
+}
+
+#ammoIcon {
+  display: none !important;
+}
+
+#weapDisplay {
+  bottom: 30px;
+}
+
+.weapItem {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.weapIcon {
+  filter: brightness(0) drop-shadow(-2px 0px 1px #fff)
+    drop-shadow(0px 0px 1px #fff) drop-shadow(2px 0px 1px var(--accent));
+  opacity: 0 !important;
+  transition-duration: 0.25s;
+  height: 0;
+}
+
+.weapIcon[style*="1"] {
+  opacity: 1 !important;
+  height: 70px;
+}
+
+#weapIconMel {
+  margin: 0 !important;
+}
+
+.weapKey {
+  display: none;
+}
+
+#timerDisplay {
+  background-color: transparent;
+}
+
+#timerVal {
+  font-size: 50px;
+}
+#timerIcon {
+  display: none;
+}
+
+.leaderNameM {
+  font-size: 0px;
+}
+.leaderNameM::before {
+  content: " [æ€§çš„]";
+  color: #ff0031;
+  font-size: 18px;
+}
+
+#menuAccountUsername {
+  font-size: 0px;
+}
+#menuAccountUsername::before {
+  content: "æ€§çš„";
+  font-size: 16px;
+}
+
+.menuClassPlayerName {
+  font-size: 0px;
+}
+.menuClassPlayerName::before {
+  content: " [æ€§çš„]";
+  color: #ff0031;
+  font-size: 19px;
+}
+
+/* Useless Stuff */
+#newsHolder,
+#voiceDisplay,
+#editorBtnM,
+.imageButton,
+#aContainer,
+#aHolder,
+#endAContainer,
+#aMerger,
+#ot-sdk-btn-floating,
+.youNewDiv,
+#helpTxtHol,
+#menuMiniProfilePic,
+#mLevelCont,
+#instructions,
+#onetrust-consent-sdk {
+  display: none !important;
+}
