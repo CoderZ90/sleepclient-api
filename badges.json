@@ -1,15 +1,6 @@
 {
   "bdgs": {
-    "Kilerho": [
-      "DEV",
-      "VIP",
-      "CC",
-      "BETA",
-      "GIVEAWAY",
-      "GOAT",
-      "GENGAR",
-      "BOOSTER",
-      "NUKER"
-    ]
+    "Kilerho": ["DEV", "VIP", "GENGAR", "NUKER"],
+    "legend_-_+": ["VIP"]
   }
 }
