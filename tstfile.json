@@ -1,0 +1,36 @@
+{
+  "badges": [
+    {
+      "id": "gatoDeveloper",
+      "url": "https://github.com/creepycats/gatoclient-addons/blob/main/badges/img/gatodev.png?raw=true"
+    },
+    {
+      "id": "gatoCC",
+      "url": "https://github.com/creepycats/gatoclient-addons/blob/main/badges/img/gatocc.png?raw=true"
+    },
+    {
+      "id": "gatoWinner",
+      "url": "https://github.com/creepycats/gatoclient-addons/blob/main/badges/img/winner.png?raw=true"
+    },
+    {
+      "id": "gatoqt",
+      "url": "https://github.com/creepycats/gatoclient-addons/blob/main/badges/img/gatoqt.png?raw=true"
+    },
+    {
+      "id": "gatoVIP",
+      "url": "https://github.com/creepycats/gatoclient-addons/blob/main/badges/img/gatovip.png?raw=true"
+    },
+    {
+      "id": "gatoPatreon",
+      "url": "https://github.com/creepycats/gatoclient-addons/blob/main/badges/img/gatopatreon.png?raw=true"
+    },
+    {
+      "id": "gatoBoost",
+      "url": "https://github.com/creepycats/gatoclient-addons/blob/main/badges/img/gatoboost.png?raw=true"
+    },
+    {
+      "id": "gatoFurry",
+      "url": "https://github.com/creepycats/gatoclient-addons/blob/main/badges/img/gatofurry.png?raw=true"
+    }
+  ]
+}
