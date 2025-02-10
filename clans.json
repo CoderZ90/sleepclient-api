@@ -1,8 +1,5 @@
 {
   "clns": {
-    "[FLOT]": {
-      "sty": "background-color: #f8002f;background-image: linear-gradient(326deg, #2835AF 0%, #000c14 74%);-webkit-background-clip: text;color: transparent !important;font-weight: bold;"
-    },
     "[TRNG]": {
       "sty": "background-color: #f8002f;background-image: linear-gradient(326deg, #2835AF 0%, #000c14 74%);-webkit-background-clip: text;color: transparent !important;font-weight: bold;"
     }
