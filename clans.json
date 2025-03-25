@@ -4,7 +4,7 @@
       "sty": "background-color: #f8002f;background-image: linear-gradient(326deg, #2835AF 0%, #000c14 74%);-webkit-background-clip: text;color: transparent !important;font-weight: bold;"
     },
     "[BUTT]": {
-      "sty": "background-color: #f8002f;background-image: linear-gradient(326deg, #af2828 0%, #39000d 74%);-webkit-background-clip: text;color: transparent !important;font-weight: bold;"
+      "sty": "background-color: #f8002f;background-image: linear-gradient(326deg, #2c0561 0%, #70ffeb 74%);-webkit-background-clip: text;color: transparent !important;font-weight: bold;"
     }
   }
 }
