@@ -1,0 +1,12 @@
+{
+  "ok": true,
+  "css": [
+    {
+      "name": "CSS One",
+      "author": "Violence",
+      "authorURL": "Author URL",
+      "imageURL": "image.png",
+      "css": "* { color: red !important; }"
+    }
+  ]
+}
