@@ -10,6 +10,11 @@
     "css": "* { color: red !important; }"
   },
   {
+    "name": "fpsboost",
+    "image": "",
+    "css": "@import url(\"https://sleepclient-api.pages.dev/css/fpsBoost.css\");"
+  },
+  {
     "name": "Ashley",
     "image": "",
     "css": "@import url(\"https://sleepclient-api.pages.dev/css/ashley.css\");"
