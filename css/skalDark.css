@@ -1,14 +1,14 @@
 :root {
   --ign:"☢"; /*☀ ☁ ☂ ☃ ☄ ★ ☆ ☇ ☈ ☉ ☊ ☋ ☌ ☍ ☎ ☏ ☐ ☑ ☒ ☓ ☚ ☛ ☜ ☝ ☞ ☟ ☠ ☡ ☢ ☣ ☤ ☥ ☦ ☧ ☨ ☩ ☪ ☫ ☬ ☭ ☮ ☯ ☰ ☱ ☲ ☳ ☴ ☵ ☶ ☷ ☸ ☹ ☺ ☻ ☼ ☽ ☾ ☿ ♀ ♁ ♂ ♃ ♄ ♅ ♆ ♇ ♈ ♉ ♊ ♋ ♌ ♍ ♎ ♏ ♐ ♑ ♒ ♓ ♔ ♕ ♖ ♗ ♘ ♙ ♚ ♛ ♜ ♝ ♞ ♟*/	
-  --WaterMark: "?";
+  --WaterMark: "Tiranga";
   --healthbar-opacity: 100; 
   --div-grey: transparent;
   --div-shadow: transparent;
   --div-grey: rgb(255 255 255 / 0%);
   --div-black: rgb(255 255 255 / 0%);
-  --image: url(https://source.boomplaymusic.com/group10/M00/06/10/338d6e49b86546c5b55a0f967c99257d_464_464.webp);
+  --image: url(https://i.pinimg.com/736x/e5/51/23/e551232ec458ab6c82459a8327d9305d.jpg);
   --bgimage: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgYA-qZf76zcKnMOl2H0QBB3tLm95cek_FioV1_N7imU0v2xyWnpZUbkuXLb2EuaIdaXNGmTBJOCDgGBHQsKpwt59DqlgfzfaWRB6gNYzfEcw9TbKK0VMmjfbU3lXj1btfew-FWp5ka9ighQ8adQLhohyLqZcFynxXIJPoh5Z9LdLcEi6cOdM_MjnpKvBE/s320/IMG_2249.gif);
-  --profileimage: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEigXi1zO1fa458zjB2AFhjaTUrJXrYRVlWCPhreqJ-E8QODEIZ1aEDRmKmgsU-EKAeq1j-ZyVO0-sEPaF2gcFRNvWncvtwQtlnZTwra1AdjNg0gaepJQVZcP2sxHOZtINJYCiqIOMKMPCyh8HzhIHaWc1Uzigdzh-VkvlsXE-VNXdkcYjVJndWhvMXT0aU/s1600/63bf00be-f99a-4ee6-92a7-18350a36838b.webp);
+  --profileimage: url(https://i.pinimg.com/736x/e5/51/23/e551232ec458ab6c82459a8327d9305d.jpg);
   }
 
 /*font*/  
