@@ -1,12 +1,87 @@
 [
   {
-      "name": "Default",
-      "image": "",
-      "css": ""
+    "name": "Default",
+    "image": "",
+    "css": ""
   },
   {
-      "name": "CSS",
-      "image": "",
-      "css": "* { color: red !important; }"
+    "name": "CSS",
+    "image": "",
+    "css": "* { color: red !important; }"
+  },
+  {
+    "name": "Ashley",
+    "image": "",
+    "css": "@import url(\"https://sleepclient-api.pages.dev/css/ashley.css\");"
+  },
+  {
+    "name": "Blackstone",
+    "image": "",
+    "css": "@import url(\"https://sleepclient-api.pages.dev/css/blackstone.css\");"
+  },
+  {
+    "name": "Classic",
+    "image": "",
+    "css": "@import url(\"https://sleepclient-api.pages.dev/css/classic.css\");"
+  },
+  {
+    "name": "Cleared",
+    "image": "",
+    "css": "@import url(\"https://sleepclient-api.pages.dev/css/cleared.css\");"
+  },
+  {
+    "name": "Ghosty",
+    "image": "",
+    "css": "@import url(\"https://sleepclient-api.pages.dev/css/ghosty.css\");"
+  },
+  {
+    "name": "Lemonfish",
+    "image": "",
+    "css": "@import url(\"https://sleepclient-api.pages.dev/css/lemonfish.css\");"
+  },
+  {
+    "name": "Magical Boy",
+    "image": "",
+    "css": "@import url(\"https://sleepclient-api.pages.dev/css/magicalboy.css\");"
+  },
+  {
+    "name": "Monochrome",
+    "image": "",
+    "css": "@import url(\"https://sleepclient-api.pages.dev/css/monochrome.css\");"
+  },
+  {
+    "name": "Neon",
+    "image": "",
+    "css": "@import url(\"https://sleepclient-api.pages.dev/css/neon.css\");"
+  },
+  {
+    "name": "Omori",
+    "image": "",
+    "css": "@import url(\"https://sleepclient-api.pages.dev/css/omori.css\");"
+  },
+  {
+    "name": "Sorable",
+    "image": "",
+    "css": "@import url(\"https://sleepclient-api.pages.dev/css/sorable.css\");"
+  },
+  {
+    "name": "Steamclient",
+    "image": "",
+    "css": "@import url(\"https://sleepclient-api.pages.dev/css/steamclient.css\");"
+  },
+  {
+    "name": "UWU",
+    "image": "",
+    "css": "@import url(\"https://sleepclient-api.pages.dev/css/uwu.css\");"
+  },
+  {
+    "name": "xCirnoFIX",
+    "image": "",
+    "css": "@import url(\"https://sleepclient-api.pages.dev/css/xCirnoFIX.css\");"
+  },
+  {
+    "name": "Yuki",
+    "image": "",
+    "css": "@import url(\"https://sleepclient-api.pages.dev/css/yuki.css\");"
   }
 ]
