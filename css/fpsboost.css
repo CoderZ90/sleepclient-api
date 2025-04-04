@@ -1,0 +1,1218 @@
+:root {
+    /* 18 Character Max */
+    --name: "Violence"
+}
+
+#bottomLeftClassImg {
+    content: url(https://cdn.discordapp.com/attachments/1046350122008715294/1095674471806947430/2f799154df8fcde56440a495354e128d.png?ex=67767ade&is=6775295e&hm=e57a653b2e09c97ccde38440ade6a177c0e78499c15573d08a65d835b051cf70&)
+}
+
+.material-icons-outlined {
+    color: white !important
+}
+
+.menuItem:hover .material-icons-outlined {
+    text-shadow: 1px 1px 0px #A3A3A3, -1px 1px 0px #A3A3A3, -1px -1px 0px #A3A3A3, 1px -1px 0px #A3A3A3, 1px -1px 0px #A3A3A3
+}
+
+.buttonO,
+.buttonB,
+.buttonG,
+.buttonPI,
+.buttonR,
+.buttonP {
+    border: 4px solid rgba(255, 255, 255, 0.1) !important
+}
+
+#customizeButton {
+    width: 300px
+}
+
+/* {
+    border: 4px solid rgba(0, 0, 0, 0)!important
+} */
+
+#healthValue,
+#ammoIcon,
+#ammoMax,
+#curGameInfo,
+#updateAd,
+#newUserGuide,
+#gameNameHolder,
+#seasonLabel,
+#termsInfo .terms:not(:last-child),
+#termsInfo .verticalSeparatorInline,
+#newsHolder,
+#voiceDisplay,
+#headerRightSocial,
+#timerIcon,
+.menuItem .menuItemTitle {
+    display: none !important
+}
+
+.accBtn,
+.accBtn:hover {
+    border: none !important;
+    padding: 5px 7.5px 5px 7.5px;
+    background: none
+}
+
+/* time to fix this - BigHead Mode  */
+
+#bhHolder {
+    position: fixed;
+    left: 450px;
+    bottom: 20px;
+    margin: unset
+}
+
+.bhHead {
+    border: 2px dashed yellow
+}
+
+.bhArm,
+.bhBody {
+    height: 50px
+}
+
+.bhLeg {
+    display: none
+}
+
+
+
+/* #krTagHolder, #giftTagHolder, #killStreakHolder, #powerUpHolder, */
+
+#krTagHolder,
+#giftTagHolder,
+#killStreakHolder,
+#powerUpHolder {
+    position: absolute;
+    display: flex;
+    right: 10px;
+    bottom: 105px;
+    float: right;
+    margin: unset
+}
+
+.killStreakItem {
+    background-color: rgba(0, 0, 0, .5) !important;
+    border-radius: 6px;
+    border: 4px solid rgba(255, 255, 255, .1);
+}
+
+/* comp menu */
+
+#cmpDatBox {
+    display: none
+}
+
+#cmpLeavInfo {
+    display: none
+}
+
+#compInfBox {
+    top: unset;
+    bottom: 10px
+}
+
+.compMenBtnS {
+    background-color: rgb(25 25 25) !important;
+    border: 4px solid rgba(255 255 255 / .1);
+    transition: all .1s ease-in-out
+}
+
+.compMenBtnS:hover,
+#cmpSpectBtn[style*="rgb(142, 199, 44)"]:hover {
+    border-color: rgba(255 255 255 / .75)
+}
+
+#cmpSpectBtn[style*="rgb(142, 199, 44)"] {
+    background-color: rgb(142, 199, 44) !important;
+    border: 4px solid rgba(0 0 0 / .3)
+}
+
+#cmpSpectBtn[style*="rgb(142, 199, 44)"] .material-icons {
+    color: #1c1c1c !important
+}
+
+.compMenBtnS .material-icons {
+    margin-bottom: 17.5px !important
+}
+
+#compClassPHolder {
+    background-color: transparent
+}
+
+#compTScrsB {
+    top: 50%;
+    left: 50%;
+    width: 1200px;
+    height: 500px;
+    transform: scale(1) translate(-50%, -50%)
+}
+
+.compTScrB {
+    margin-top: 15.5px;
+    padding: 165px 20px 165px 20px !important;
+    clip-path: none !important;
+    width: 75px;
+    height: 100px;
+    text-shadow: -1px -1px 0 #1c1c1c, 1px -1px 0 #1c1c1c, -1px 1px 0 #1c1c1c, 1px 1px 0 #1c1c1c, -2px -2px 0 #1c1c1c, 2px -2px 0 #1c1c1c, -2px 2px 0 #1c1c1c, 2px 2px 0 #1c1c1c, -3px -3px 0 #1c1c1c, 3px -3px 0 #1c1c1c, -3px 3px 0 #1c1c1c, 3px 3px 0 #1c1c1c, -4px -4px 0 #1c1c1c, 4px -4px 0 #1c1c1c, -4px 4px 0 #1c1c1c;
+}
+
+#compT1Scr {
+    position: fixed;
+    left: -117.5%;
+    border-radius: 0 12px 12px 0;
+    padding-left: 1850px !important;
+    background: rgba(0, 0, 0, .65);
+    -webkit-mask-image: linear-gradient(to right, transparent 0%, black 100%);
+}
+
+
+#compT2Scr {
+    position: fixed;
+    right: -117.5%;
+    border-radius: 12px 0 0 12px;
+    padding-right: 1850px !important;
+    background: rgba(0, 0, 0, .65);
+    -webkit-mask-image: linear-gradient(to left, transparent 0%, black 100%);
+}
+
+#compTScrsB div:nth-child(2) {
+    display: none !important;
+}
+
+.compSwpTmB {
+    margin-top: 25px;
+    background-color: rgb(25 25 25) !important;
+    border: 4px solid rgba(255 255 255 / .1);
+    transition: all .1s cubic-bezier(0.4, 0, 0.2, 1)
+}
+
+.compSwpTmB[style="background-color:#eb4034"] {
+    border: 4px solid #eb4034 !important
+}
+
+.compSwpTmB[style="background-color:#3489eb"] {
+    border: 4px solid #3489eb !important
+}
+
+.compSwpTmB[style="background-color:#eb4034"]:hover {
+    background: #eb4034 !important;
+    border: 4px solid white !important
+}
+
+.compSwpTmB[style="background-color:#3489eb"]:hover {
+    background: #3489eb !important;
+    border: 4px solid white !important
+}
+
+.compPLstIcn {
+    border-radius: 4px;
+    border: 4px solid rgba(255 255 255 / .1) !important;
+}
+
+.compPlWepsL {
+    margin-left: -300px;
+}
+
+.compPlWepsR {
+    margin-right: -300px
+}
+
+.compPlWpIcn {
+    border-radius: 0;
+    border: unset;
+    background-color: unset;
+    margin-top: 2.5px;
+    filter: drop-shadow(0px 0px 5px #000000);
+}
+
+.cmpFlagIcL {
+    -webkit-mask-image: linear-gradient(to left, transparent 10%, black 100%);
+    left: -60px;
+}
+
+.cmpFlagIc {
+    -webkit-mask-image: linear-gradient(to right, transparent 10%, black 100%);
+    right: -65px;
+}
+
+.cmpFlagIc,
+.cmpFlagIcL {
+    transform: scale(3.6);
+    margin-top: 31.5px;
+    z-index: -1;
+    border-radius: 6px
+}
+
+.cmpClassLck {
+    top: 25px;
+    margin-left: 7.5px
+}
+
+.cmpClassLck .material-icons {
+    line-height: 100px;
+}
+
+.compClassPItm {
+    border: 4px solid rgba(255 255 255 / .1)
+}
+
+.compClassPItm:hover {
+    border: 4px solid rgba(255 255 255 / 1)
+}
+
+.compClassPCnt {
+    bottom: 0;
+    right: 50%;
+    transform: translateX(50%);
+}
+
+.cmpClassGr {
+    pointer-event: none;
+}
+
+/* Remove Banned Class */
+#compClassPHolder div:nth-child(10),
+#compClassPHolder div:nth-child(20),
+#compClassPHolder div:nth-child(22) {
+    display: none !important
+}
+
+/* Remove Banned Class - End */
+#uiBase.onCompMenu #chatHolder {
+    z-index: 99;
+}
+
+#uiBase.onCompMenu #instructions {
+    top: 185px
+}
+
+#uiBase.onCompMenu #specOverlay {
+    background-color: black
+}
+
+/* New Update Killcard */
+
+.death-ui-bottom,
+.death-ui-bottom-empty {
+    background: transparent;
+    backdrop-filter: none;
+    animation: unset;
+}
+
+.death-row-bottom {
+    background: rgba(0, 0, 0, .5) !important;
+    outline: 4px solid rgb(255, 255, 255, .1);
+    filter: unset !important
+}
+
+.death-row-kills {
+    font-size: 0
+}
+
+.death-stats {
+    position: fixed;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.death-stats-row {
+    text-align: right
+}
+
+.death-row-center-self:not(:first-child) {
+    display: none
+}
+
+.death-row-center-self {
+    font-size: 0 !important;
+    filter:
+        drop-shadow(-1px -1px 0px #A3A3A3) drop-shadow(2px -1px 0px #A3A3A3) drop-shadow(2px 2px 0px #A3A3A3) drop-shadow(-1px 2px 0px #A3A3A3)
+}
+
+.death-row-center-self::before {
+    content: url('https://api.iconify.design/mdi/gun.svg?width=65&color=white');
+}
+
+.death-row-center-self::after {
+    content: url('https://api.iconify.design/material-symbols/face.svg?width=100&color=white');
+}
+
+#uiBase.onDeathScrn #chatHolder,
+#uiBase.onDeathScrn #voiceDisplay {
+    animation: unset
+}
+
+/* Spectate */
+
+/* Spectate */
+#uiBase.onSpect .topRightCounters {
+    display: none
+}
+
+#specNames,
+#specContr {
+    display: none !important
+}
+
+#specStats {
+    top: unset;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 4px solid rgba(255, 255, 255, .1);
+    background: rgba(0, 0, 0, .7)
+}
+
+#specMapOverlay,
+#specMapCanvas {
+    top: 20px;
+    border-radius: 6px;
+    background: rgba(0, 0, 0, .4);
+    box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.75) inset;
+    width: 250px !important;
+    height: 250px !important;
+    aspect-ratio: 1;
+    overflow: hidden;
+    border: 4px solid rgba(0, 0, 0, .7);
+}
+
+#specMapCanvas {
+    transform: scale(1.2)
+}
+
+
+/* center chat / just remove the note to use it */
+
+#uiBase.onSpect:not(.onEndScrn) #chatHolder {
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 125px;
+}
+
+#uiBase.onSpect:not(.onEndScrn) #chatList {
+    text-align: center;
+    padding: unset;
+    background: transparent;
+}
+
+#uiBase.onSpect:not(.onEndScrn) .chatItem {
+    border-radius: 6px;
+    background: rgb(0 0 0 / 40%);
+    padding: 7.5px 20px 7.5px 20px;
+    margin-left: unset
+}
+
+#uiBase.onSpect:not(.onEndScrn) ::-webkit-scrollbar {
+    display: none !Important
+}
+
+/* right chat bar / just remove the note to use it */
+
+/* #uiBase.onSpect #chatHolder {
+    position: fixed;
+    left: unset;
+    right: 20px;
+}
+
+#uiBase.onSpect #chatList {
+    text-align: right;
+    padding-right: 15px
+} */
+
+#uiBase.onEndScrn.onSpect #chatInputHolder,
+#uiBase.onEndScrn.onSpect #voiceDisplay {
+    display: none
+}
+
+#uiBase.onSpect #chatInputHolder,
+#uiBase.onSpect #voiceDisplay {
+    display: none
+}
+
+/* what a weird selector */
+
+/* #ingameTable tr:first-child {
+    display: none
+} */
+
+.specLevelBox {
+    display: none
+}
+
+.specPHead {
+    margin-left: 15px
+}
+
+.specPHead span {
+    display: none !important
+}
+
+/* Killfeed */
+
+.kfMsg span[style*="color:#eb5656"] {
+    color: var(--red) !important
+}
+
+.kfMsg span[style*="color:#9eeb56"] {
+    color: var(--blue) !important
+}
+
+/* cool leaderboard display */
+
+#newLeaderDisplay {
+    display: inline-block !important;
+    left: unset;
+    top: 350px;
+    transform: unset;
+}
+
+td>.newLeaderItem {
+    min-width: 200px
+}
+
+tr[height^="10px"] {
+    display: none
+}
+
+.newLeaderContainer {
+    position: fixed;
+    width: 500px;
+    border-radius: unset;
+    transition: all .2s ease-in-out
+}
+
+.newLeaderContainer:first-child {
+    padding-left: 25px;
+    left: 0px;
+}
+
+.newLeaderContainer:last-child {
+    padding-right: 25px;
+    right: 0px;
+}
+
+
+
+#ingameTable th {
+    border-bottom: unset
+}
+
+/* INGAMEHUDDDDD */
+
+#timerHolder.topLeftOld,
+#leaderboardHolder,
+.statIcon,
+.centerLeaderContainer {
+    border: 3px solid rgba(255, 255, 255, .1);
+    background: rgb(0, 0, 0, .5)
+}
+
+/* trial teamdisplay animation with transition */
+
+#newLeaderDisplay[style*="none"] .newLeaderContainer:first-child {
+    transform: translateX(-550px);
+    opacity: 0
+}
+
+#newLeaderDisplay[style*="none"] .newLeaderContainer:last-child {
+    transform: translateX(550px);
+    opacity: 0
+}
+
+#newLeaderDisplay[style*="inline-block"] .newLeaderContainer:first-child,
+#newLeaderDisplay[style*="inline-block"] .newLeaderContainer:last-child {
+    transform: translateX(0);
+    opacity: 1
+}
+
+/* for team 2 */
+#newLeaderDisplay .newLeaderContainer:last-child .newLeaderTeam {
+    text-align: right
+}
+
+/* for team 2 */
+#newLeaderDisplay .newLeaderContainer:last-child .newLeaderTeamScore {
+    float: left
+}
+
+.newLeaderName {
+    padding: unset
+}
+
+#uiBase.onCompMenu.onSpect #roundsDisplay {
+    background: rgba(0, 0, 0, .7);
+    border-top: 4px solid rgba(255, 255, 255, .1);
+    border-bottom: 4px solid rgba(255, 255, 255, .1);
+    display: inline-block !important;
+    z-index: 0;
+    margin-top: 5px;
+    -webkit-mask-image: linear-gradient(90deg, transparent 10%, black 30%, black 70%, transparent 90%);
+}
+
+#uiBase.onCompMenu.onSpect #roundsDisplay div[style*="display:inline-block"] {
+    height: 100px;
+    width: 275px !important;
+    margin: unset !important;
+    direction: rtl;
+}
+
+#uiBase.onCompMenu.onSpect #roundsDisplay div[style*="display:inline-block"] div:not(#roundSub) {
+    display: none
+}
+
+#uiBase.onCompMenu.onSpect #roundSub,
+#uiBase.onCompMenu.onSpect #roundsVal {
+    display: inline-block;
+    font-size: 20px;
+    color: transparent
+}
+
+#uiBase.onCompMenu.onSpect .roundScrV {
+    height: 100px;
+    font-size: 35px;
+    line-height: 95px;
+    background: transparent;
+}
+
+#uiBase.onCompMenu.onSpect #roundTSc1 {
+    border-bottom: unset !important;
+    padding-left: 500px;
+    padding-right: 10px;
+    text-align: right;
+    color: rgb(237 66 66 / 85%);
+    text-shadow: -1px -1px 0 #202020, 1px -1px 0 #202020, -1px 1px 0 #202020, 1px 1px 0 #202020, -2px -2px 0 #202020, 2px -2px 0 #202020, -2px 2px 0 #202020, 2px 2px 0 #202020, -3px -3px 0 #202020, 3px -3px 0 #202020, -3px 3px 0 #202020, 3px 3px 0 #202020
+}
+
+#uiBase.onCompMenu.onSpect #roundTSc2 {
+    border-bottom: unset !important;
+    padding-right: 500px;
+    padding-left: 10px;
+    text-align: left;
+    color: rgb(33 150 243 / 85%);
+    text-shadow: -1px -1px 0 #202020, 1px -1px 0 #202020, -1px 1px 0 #202020, 1px 1px 0 #202020, -2px -2px 0 #202020, 2px -2px 0 #202020, -2px 2px 0 #202020, 2px 2px 0 #202020, -3px -3px 0 #202020, 3px -3px 0 #202020, -3px 3px 0 #202020, 3px 3px 0 #202020
+}
+
+#spec0,
+#spec1 {
+    position: absolute;
+    top: 0px;
+    width: 400px;
+}
+
+#uiBase.onCompMenu.onSpect #spec0,
+#uiBase.onCompMenu.onSpect #spec1 {
+    top: 22.5px;
+    display: inline-block !important
+}
+
+#spec0 {
+    direction: rtl;
+    left: calc(50% - 300px);
+    transform: translateX(-50%);
+}
+
+#spec1 {
+    right: calc(50% - 300px);
+    transform: translateX(50%);
+}
+
+#spec0 {
+    direction: rtl;
+    left: calc(50% - 325px);
+    transform: translateX(-50%);
+}
+
+#spec1 {
+    right: calc(50% - 325px);
+    transform: translateX(50%);
+}
+
+#uiBase.onCompMenu.onSpect #specNameTm0,
+#uiBase.onCompMenu.onSpect #specNameTm1 {
+    padding-left: 125px;
+    padding-right: 125px;
+    padding-top: unset;
+    padding-bottom: unset;
+    margin: unset;
+}
+
+#specNameTm0,
+#specNameTm1 {
+    width: auto;
+    max-width: 300px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: -20px;
+    border-radius: 6px;
+    font-size: 27.5px;
+    overflow: visible;
+    text-shadow: -1px -1px 0 #202020, 1px -1px 0 #202020, -1px 1px 0 #202020, 1px 1px 0 #202020, -2px -2px 0 #202020, 2px -2px 0 #202020, -2px 2px 0 #202020, 2px 2px 0 #202020, -3px -3px 0 #202020, 3px -3px 0 #202020, -3px 3px 0 #202020, 3px 3px 0 #202020
+}
+
+#uiBase.onCompMenu.onSpect #specNameTm0,
+#uiBase.onCompMenu.onSpect #specNameTm1 {
+    background: transparent
+}
+
+#specNameTm0 {
+    background: var(--red);
+    text-align: left
+}
+
+#specNameTm1 {
+    background: var(--blue);
+    text-align: right
+}
+
+#specScoreTm0,
+#specScoreTm1,
+#specNameTm0,
+#specNameTm1 {
+    display: inline-block;
+}
+
+#specScoreTm0,
+#specScoreTm1 {
+    border-radius: 6px;
+    clip-path: unset;
+    text-shadow: 2px 2px 0px #202020, 2px -2px 0px #202020, -2px 2px 0px #202020, -2px -2px 0px #202020;
+}
+
+#uiBase.onCompMenu.onSpect #specScoreTm0,
+#uiBase.onCompMenu.onSpect #specScoreTm1 {
+    position: absolute;
+    top: 72.5px;
+    border-radius: unset;
+    padding: 0px 10px;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 1);
+    text-shadow: -1px -1px 0 #202020, 1px -1px 0 #202020, -1px 1px 0 #202020, 1px 1px 0 #202020;
+}
+
+#specScoreTm0 {
+    background-color: var(--red);
+    padding: 20px 20px 20px 0px;
+}
+
+#specScoreTm1 {
+    background-color: var(--blue);
+    padding: 20px 0px 20px 20px;
+}
+
+#uiBase.onCompMenu.onSpect #specScoreTm0 {
+    -webkit-mask-image: linear-gradient(90deg, transparent 5%, black 75%)
+}
+
+#uiBase.onCompMenu.onSpect #specScoreTm1 {
+    -webkit-mask-image: linear-gradient(270deg, transparent 5%, black 75%)
+}
+
+#specTimer {
+    padding: 20px 25px;
+    font-size: 37.5px;
+    left: 50%;
+    position: fixed;
+    transform: translateX(-50%);
+    border-radius: 6px
+}
+
+#uiBase.onCompMenu.onSpect #specTimer {
+    top: 15px;
+    background: rgba(0, 0, 0, .4);
+    padding: 20px 30px;
+    border-radius: 0;
+    font-size: 35px
+}
+
+#uiBase.onCompMenu.onSpect #specGMessage {
+    background: rgba(0, 0, 0, .7);
+    top: 105px;
+    border-radius: 0;
+
+}
+
+#specGMessage {
+    position: fixed;
+    color: rgba(255, 255, 255, .85);
+    top: 120px;
+    padding: 10px 15px 10px 15px;
+    text-transform: uppercase;
+    width: 185px !important;
+    max-width: 185px;
+    line-height: 20px
+}
+
+#specGameInfo {
+    top: 80px;
+    position: relative
+}
+
+#uiBase.onCompMenu.onSpect #specGameInfo {
+    display: none
+}
+
+#spectateHUD {
+    left: unset;
+    top: 10px;
+    z-index: 2;
+    transform: unset
+}
+
+/* cool things to show when spectating a player from a different team */
+/* #specTeam0 .material-icons[style*="inline-block"]::after, 
+#specTeam0 .material-icons[style*="inline-block"]::before,
+#specTeam1 .material-icons[style*="inline-block"]::after,
+#specTeam1 .material-icons[style*="inline-block"]::before {
+    content: "";
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: -20px;
+    bottom: 0;
+    z-index: -10
+}
+
+#specTeam0 .material-icons[style*="inline-block"]::after, #specTeam1 .material-icons[style*="inline-block"]::after {
+    height: 100%;
+    -webkit-mask-image: linear-gradient(to bottom,black, transparent);
+}
+
+#specTeam0 .material-icons[style*="inline-block"]::before, #specTeam1 .material-icons[style*="inline-block"]::before {
+    height: 20px;
+}
+
+#specTeam1 .material-icons[style*="inline-block"]::after, #specTeam1 .material-icons[style*="inline-block"]::before  {
+    background: var(--red);
+}
+
+#specTeam0 .material-icons[style*="inline-block"]::after, #specTeam0 .material-icons[style*="inline-block"]::before  {
+    background: var(--blue);
+} */
+
+/* Outline for dynamic team preview */
+#uiBase.onCompMenu.onSpect #specTeam0 .material-icons[style*="inline-block"]::before,
+#uiBase.onCompMenu.onSpect #specTeam1 .material-icons[style*="inline-block"]::before {
+    content: "";
+    width: 350px;
+    height: 80px;
+    padding: 10px 10px;
+    padding-bottom: 8px;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    top: unset;
+    bottom: 20px;
+    z-index: -10;
+    border: 4px solid var(--red);
+    border-radius: 6px
+}
+
+#specTeam1 .material-icons[style*="inline-block"]::before {
+    border-color: var(--blue);
+}
+
+#specTeam0 .material-icons[style*="inline-block"]::before {
+    border-color: var(--red);
+}
+
+/* Player Card Highlight, already have eye icon, might good for replacement */
+
+#specTeam0 .material-icons[style*="inline-block"]::after,
+#specTeam1 .material-icons[style*="inline-block"]::after {
+    content: "";
+    width: 475px;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    border-radius: 6px;
+    box-shadow: 0px 0px 0px 3px white, 0px 0px 8px 4px white;
+}
+
+/* lmao big eye */
+
+.specPlayerHolder0 .material-icons[style*="vertical-align: middle;"],
+.specPlayerHolder1 .material-icons[style*="vertical-align: middle;"] {
+    font-size: 45px !important;
+    background: rgba(0, 0, 0, .5);
+    height: 100px;
+    width: 100px;
+    margin-top: 0 !important;
+    line-height: 100px;
+}
+
+.specPlayerHolder0 .material-icons[style*="vertical-align: middle;"] {
+    letter-spacing: unset;
+    margin-left: 20px;
+}
+
+.specPlayerHolder1 .material-icons[style*="vertical-align: middle;"] {
+    letter-spacing: unset;
+    margin-right: 20px
+}
+
+/* fr this time cool player list */
+
+#specTeam0,
+#specTeam1 {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    bottom: 20px;
+    flex-wrap: wrap;
+}
+
+#specTeam0 {
+    left: 20px;
+    right: unset;
+}
+
+#specTeam1 {
+    left: unset;
+    right: 20px;
+    justify-content: flex-end;
+    direction: rtl;
+}
+
+.specPlayerHolder0,
+.specPlayerHolder1 {
+    width: 475px;
+    display: flex;
+    margin: 10px;
+    flex-direction: row;
+    padding: 0;
+    border-radius: 6px;
+    background: rgba(0, 0, 0, .4);
+}
+
+.specPlayerHolder1 {
+    float: right;
+    align-content: flex-start;
+}
+
+.specPlayerIcon {
+    width: 100px;
+    z-index: 2;
+    background: rgba(0, 0, 0, .4);
+    border-radius: 0;
+}
+
+.specPlayerFlag {
+    border-radius: 0;
+    z-index: 1;
+    opacity: .75
+}
+
+.specPlayerHolder0 .specPlayerFlag {
+    width: 150px;
+    height: 100px;
+    transform: unset;
+    top: 0px;
+    left: 100px;
+    -webkit-mask-image: linear-gradient(90deg, black 0%, transparent 100%);
+}
+
+.specPlayerHolder1 .specPlayerFlag {
+    width: 150px;
+    height: 100px;
+    transform: unset;
+    top: 0px;
+    right: 100px;
+    -webkit-mask-image: linear-gradient(270deg, black 0%, transparent 100%);
+}
+
+.specPlayerName {
+    font-size: 20px;
+    overflow: visible;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 10px;
+    width: 225px;
+    text-align: left;
+    z-index: 3;
+}
+
+.specPlayerHolder1 .specPlayerName {
+    text-align: right;
+}
+
+.specNum {
+    z-index: 3;
+    background: rgba(0, 0, 0, .7);
+    top: unset;
+    bottom: 0;
+    margin-top: unset;
+    padding: 2.5px 10px;
+    font-size: 18px;
+    border-radius: 0
+}
+
+/* New HUD Update */
+
+#bottomLeftHolder {
+    z-index: 10;
+    position: absolute;
+    bottom: -10px;
+    left: 15px;
+    text-align: left;
+}
+
+#bottomLeftHealthBar {
+    display: inline-flex;
+    padding: unset;
+    background-color: rgba(0, 0, 0, .4);
+    width: 290px;
+    margin-left: 5px;
+    border-radius: 6px
+}
+
+.nHealthBarSeg {
+    background-color: transparent;
+    width: -webkit-fill-available;
+    height: 35px;
+    margin-right: -4px;
+}
+
+.nHealthBarSeg:first-child .nHpBSeg {
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+
+.nHealthBarSeg:last-child .nHpBSeg {
+    border-bottom-right-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.nHpBSeg {
+    width: 100%;
+    border-radius: 0px
+}
+
+#bottomLeftPlayer {
+    display: flex;
+    border-radius: 6px;
+    padding-right: 5px;
+    background-color: rgba(0, 0, 0, .6);
+    width: 400px;
+    border: 3px solid rgb(255 255 255 / 20%)
+}
+
+#bottomLeftPlayerLeft {
+    background-color: rgba(0, 0, 0, .3);
+    border-radius: 4px;
+    margin: 3px;
+}
+
+
+#bottomLeftPlayerRight,
+#bottomLeftTeamType {
+    display: none
+}
+
+#bottomLeftTeamHolder {
+    display: block;
+}
+
+#bottomLeftTeamName {
+    display: block;
+    font-size: 0px;
+    color: #fff;
+    margin-left: 5px;
+    padding: 2px 8px;
+    width: max-content;
+    border-radius: 6px;
+    background-color: rgb(0, 0, 0, .4)
+}
+
+#bottomLeftTeamName::before {
+    font-size: 20px;
+    content: var(--name)
+}
+
+/*  */
+/*  */
+
+#weapHolder {
+    display: block !important;
+    z-index: 10;
+    bottom: 30px
+}
+
+#ammoHolder {
+    display: block !important;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    padding-left: 10px;
+    padding-right: 200px;
+    background-color: rgba(0, 0, 0, .5);
+    border: 4px solid rgba(255, 255, 255, .1);
+    border-radius: 4px;
+    transition-timing-function: linear;
+}
+
+#ammoVal {
+    font-size: 45px;
+    vertical-align: text-top;
+    text-shadow: 2px 2px 0px #A3A3A3, -2px 2px 0px #A3A3A3, -2px -2px 0px #A3A3A3, 2px -2px 0px #A3A3A3, 2px -2px 0px #A3A3A3
+}
+
+#ammoMax,
+#ammoIcon {
+    display: none
+}
+
+.weapSkin {
+    background-color: transparent;
+    position: fixed;
+    bottom: 25px;
+    left: unset;
+    right: 25px;
+    font-size: 12px;
+    text-shadow: 1px 1px 0px #1c1c1c, -1px 1px 0px #1c1c1c, -1px -1px 0px #1c1c1c, 1px -1px 0px #1c1c1c, 1px -1px 0px #1c1c1c;
+}
+
+.weapItem {
+    background-color: transparent
+}
+
+.weapKey {
+    display: none
+}
+
+.weapItem[style*="0.5"] {
+    display: none;
+}
+
+.weapIcon {
+    margin-right: 40px !important;
+    transform: scale(1.4)
+}
+
+.weapIcon[src*="melee"],
+.weapIcon[src*="weapons/icon_0"] {
+    margin-top: 20px;
+    margin-right: 35px !important;
+}
+
+.weapIcon[src*="melee/icon_44"],
+.weapIcon[src*="melee/icon_18"] {
+    margin-top: 0px;
+    margin-right: 35px !important;
+}
+
+.weapIcon[src*="weapons/icon_21"] {
+    margin-top: 10px !important
+}
+
+.weapIcon[src*="weapons/icon_10"] {
+    margin-bottom: 5px !important
+}
+
+.weapIcon[src*="weapons/icon_28"],
+.weapIcon[src*="weapons/icon_26"],
+.weapIcon[src*="weapons/icon_25"],
+.weapIcon[src*="weapons/icon_16"],
+.weapIcon[src*="weapons/icon_23"] {
+    margin-top: 0px !important
+}
+
+.weapStreakHolder {
+    right: 15px;
+    top: unset;
+    bottom: 85px;
+    position: fixed;
+    border: 3px solid rgba(255, 255, 255, .1)
+}
+
+
+.greyInner,
+.greyInlineInner,
+.greyInlineInnerMid,
+.weapItemInner,
+.centerLeaderContainerInner,
+#leaderContainer,
+#timerInner.topLeftOld,
+.weapStreakInner {
+    background: transparent
+}
+
+
+
+/* #weapDisplay {
+    width: 175px!important;
+    z-index: 10
+}
+
+.weapKey {
+    display: none
+}
+
+.weapItem {
+    margin-top: 15px;
+    margin-right: 30px;
+}
+
+.weapIcon {
+    margin-right: 10px!important;
+    transform: scale(1.3)
+}
+
+#weapItem_1 .weapIcon {
+    transform: scale(1.1)!important;
+    margin-top: 5px;
+    margin-left: 5px
+}
+
+.weapIcon[style*="0.7"] {
+    display: none
+}
+
+.weapIcon[src*="melee"], .weapIcon[src*="weapons/icon_0"] {
+    margin-top: 20px;
+    margin-right: 10px!important;
+}
+
+.weapIcon[src*="melee/icon_44"], .weapIcon[src*="melee/icon_18"]  {
+    margin-top: 0px;
+    margin-right: 25px!important;
+}
+
+.weapIcon[src*="weapons/icon_21"] {
+    margin-top: 10px!important
+}
+
+.weapIcon[src*="weapons/icon_28"], .weapIcon[src*="weapons/icon_26"], .weapIcon[src*="weapons/icon_25"], .weapIcon[src*="weapons/icon_16"], .weapIcon[src*="weapons/icon_23"] {
+    margin-top: 5px!important
+}
+
+#ammoDisplay {
+	display: block;
+    margin-right: 25px;
+    text-align: center;
+    width: 100px;
+    padding-top: 10px;
+    padding-bottom: 25px;
+	padding-right: 200px;
+	margin-right: -180px;
+    background-color: rgba(0,0,0,.5);
+    border: 4px solid rgba(255,255,255,.1);
+    border-radius: 4px;
+    transition-type: linear;
+}
+
+#ammoVal {
+    font-size: 45px;
+    vertical-align: text-top;
+    text-shadow: 2px 2px 0px #A3A3A3, -2px 2px 0px #A3A3A3, -2px -2px 0px #A3A3A3, 2px -2px 0px #A3A3A3, 2px -2px 0px #A3A3A3;
+} */
