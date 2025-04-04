@@ -7,6 +7,6 @@
   {
       "name": "CSS",
       "image": "",
-      "css": "https://sleepclient-api.pages.dev/css/tate.css"
+      "css": "* { color: red !important; }"
   }
 ]
