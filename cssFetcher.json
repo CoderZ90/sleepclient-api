@@ -12,7 +12,7 @@
   {
     "name": "fpsboost",
     "image": "",
-    "css": "@import url(\"https://sleepclient-api.pages.dev/css/fpsBoost.css\");"
+    "css": "@import url(\"https://sleepclient-api.pages.dev/css/fpsboost.css\");"
   },
   {
     "name": "Ashley",
