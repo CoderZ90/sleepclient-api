@@ -108,5 +108,10 @@
     "name": "Skal Dark",
     "image": "",
     "css": "@import url(\"https://sleepclient-api.pages.dev/css/skalDark.css\");"
+  },
+  {
+    "name": "sexgy",
+    "image": "",
+    "css": "@import url(\"https://sleepclient-api.pages.dev/css/sexgy.css\");"
   }
 ]
