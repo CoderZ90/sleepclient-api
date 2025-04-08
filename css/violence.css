@@ -1,0 +1,315 @@
+:root {
+    --numX:.89;
+    --numY:.58;
+}
+
+#uiBase {
+height: calc(100%/var(--numY)) !important;
+width: calc(100%/var(--numX)) !important;
+transform: scaleX(var(--numX)) scaleY(var(--numY)) !important;
+}
+
+@font-face {
+    font-family: gamefont;
+    src: url(https://fonts.gstatic.com/s/aldrich/v11/MCoTzAn-1s3IGyJMVacY37H6D_A.woff2)
+}
+
+.button, #menuClassIcn {
+	border: 4px solid#ffffff !important;
+}
+
+.menuItem > span {
+color: #ffffff !important;
+}
+
+/* Removals */
+
+/* Removal */
+#clientExit,
+#aMerger,
+#rankedSoonTm,
+#newsHolder,
+#youNewDiv,
+#onetrust-consent-sdk,
+.weapKey,
+#aHolder,
+.imageButton,
+#editorBtnM,
+.headerBarRight .verticalSeparator,
+#seasonLabel,
+.krSocial,
+#mailCount,
+#voiceDisplay,
+#bubbleContainer,
+.endAHolder,
+#igXPBar,
+.button.small.buttonO img,
+#tlInfHold,
+#loadEditrBtn,
+.settingsBtn[onclick="openOneTrust()"],
+.menuSocialB,
+#topRightAdHolder,
+.setSugBox2 {
+  display: none !important;
+}
+.button,
+.button:hover,
+.quickJoin,
+.setHed,
+.sliderVal {
+  border: hidden !important;
+}
+#streamContainer {
+  background-color: transparent;
+}
+/* COMP */
+iframe#bigMFeatVid,
+.itemOwn,
+.itemSea,
+#cmpPartnerImg,
+#cmpLeavInfo,
+#cmpDatBox,
+#cmpStatBox .material-icons,
+#cmpStatBox .material-icons + span {
+  display: none !important;
+}
+
+div#bundlePop {
+    display: none !important;
+}
+
+#menuClassContainer {
+    bottom: 1%;
+}
+
+/* Health Edit */
+
+#bottomLeftPlayer, #bottomLeftPlayerRight  {
+	background-color: transparent;
+}
+
+#bottomLeftTeamName,
+#bottomLeftTeamType {
+	display: none;
+}
+
+#bottomLeftHolder, #bottomLeftPlayerLeft {
+	background: transparent !important;
+}
+
+#bottomLeftHealthBar {
+    background-color: rgb(255 255 255 / 0%);
+    padding: 10px 15px 10px 15px;
+    border-radius: 5px 5px 5px 5px;
+    position: fixed;
+    width: 180px;
+	height: 48px;
+   	bottom: 14px;
+   	left: 110px;
+}
+
+#bottomLeftHealthBar {
+    display: flex;
+    padding: 9px;
+    column-gap: 3px;
+    background-color: rgb(108 108 108 / 0%);
+}
+
+.nHealthBarSeg {
+    background-color: transparent;
+    width: -webkit-fill-available;
+    height: 50px;
+    margin-right: -32px;
+}
+    
+.nHealthBarSeg:first-child .nHpBSeg{
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+    
+.nHealthBarSeg:last-child .nHpBSeg {
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
+    transition: .5s;
+}
+
+#bottomLeftHealth {
+	background-color: transparent;
+	position: fixed;
+	bottom: 70px;
+	left: 120px;
+	font-size: 50px;
+	font-weight: bold;
+}
+
+#bottomLeftChallIcon {
+	margin-left: -290px;
+	margin-bottom: 66px;
+}
+
+#bottomLeftClassImg {
+    height: 100px;
+}
+
+/* Chat */
+
+#chatSwitchHolder, #recTimer {
+    display: none;
+}
+
+.greyInner, .greyInlineInner, .greyInlineInnerMid {
+    margin: 3px;
+    background-color: transparent;
+    padding: 5px;
+}
+
+#chatInput {
+    background-color: transparent;
+    border: none;
+    margin-left: -120px;
+}
+
+#uiBase.onGame #chatHolder {
+    bottom: 130px !important;
+}
+
+#chatList ,#chatInputHolder {
+    background: transparent;
+}
+
+/* Settings */
+
+.settName, .settNameSmall, .setHed, .setBodH, #hostActionH, .mFeatSepar{
+    border: hidden!important;
+    background: transparent !important;
+}
+
+.sliderVal, .selectorItem, .chalCard{
+    border: hidden!important;
+}
+
+#menuWindowHider div[style="height:15px;margin-top:30px;border-top:4px solid rgba(255, 255, 255, 0.8);"]{
+    display: none!important
+}
+
+/* Profile Edit */
+
+.blurred {
+    content: url(https://images-ext-1.discordapp.net/external/WAKl-SB1Dnc0BPusbhw3whV6XhQwsdhnePuHU_RepMo/%3Fsize%3D512/https/cdn.discordapp.com/avatars/775938659852615700/dac191b422352db04d03dc24e70d9bc3.png?format=webp&quality=lossless);
+    filter: none;
+}
+
+/* Timer */
+
+#timerInner.topLeftOld {
+    background-color: transparent;
+}
+
+#timerHolder.topLeftOld {
+    background: rgba(0,0,0,.3);
+	border-radius: 7px;
+}
+
+#timerVal.topLeftOld {
+	font-weight: bold;
+}
+
+/* Leaderboard */
+
+#leaderboardHolder {
+    background: rgba(0,0,0,.3);
+}
+
+#leaderContainer {
+    background: transparent;
+}
+
+.statIcon {
+    background: rgba(0,0,0,.3);
+}
+
+#ammoHolder {
+    border-radius: 4px;
+    background-color: rgba(0,0,0,.3) !important;
+    display: inline-block;
+    font-size: 26px;
+    letter-spacing: -2px;
+    border-radius: 6px;
+    background-repeat: no-repeat;
+    background-size: 0% 100%;
+    background-image: url(../img/blank_2.png);
+    -webkit-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -o-transform: translateZ(0);
+    transform: translateZ(0);
+}
+
+#ammoMax {
+    display: none;
+}
+    
+#ammoVal {
+    color: #fff;
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 45.5px !important;
+}
+
+/* weapon */
+
+#weapHolder {
+    position: absolute;
+    z-index: 1;
+    right: 24px;
+    bottom: 90px;
+    row-gap: 5px;
+}
+
+.weapItem {
+    position: relative;
+    text-align: right;
+    color: #fff;
+    font-size: 17px;
+    word-break: break-all;
+    overflow-wrap: break-word;
+    border-radius: 4px;
+    background-color: rgb(20 20 20 / 0%);
+}
+
+
+.weapItemInner {
+    color: rgba(255,255,255,.7);
+    background-color: rgb(108 108 108 / 0%);
+    margin: 3px;
+    padding: 2px 10px;
+    display: inline-block;
+}
+
+
+.weapSkin,
+.weapStreakHolder,
+.weapStreakInner,
+.weapStreak {
+    display: none;
+}
+
+.weapKey {
+    left: 123px;
+    top: 18px;
+    color: #fff;
+    font-size: 14px;
+    position: absolute;
+    background-color: rgb(0 0 0 / 0%);
+    padding: 2px 8px;
+    text-align: center;
+    border-bottom-right-radius: 4px;
+}
+
+.weapKey::before {
+    content: '['
+}
+
+.weapKey::after {
+    content: ']'
+}
