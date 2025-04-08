@@ -1,0 +1,329 @@
+/* (extra clean v3) thaddeuz css by https://www.youtube.com/@thaddeuz_ */
+/* Please credit me if you want to redistribute this code as part of your code. */
+
+/* Updated: 01/07/2024 */
+
+:root {
+      --div-grey: transparent;
+      --div-black: transparent;
+      --text-shadow: 2px 2px 3px rgba(30, 30, 30, .5)
+  }
+    
+     /* font */
+  
+     @font-face {
+	font-family: 'GameFont';
+	src: CSSFONT:font2;
+}
+  
+  
+  /* menu css */
+  
+     /* bottom hover cred shotzz css */
+  
+  #subLogoButtons {
+        position: absolute !important;
+        display: flex !important;
+        flex-direction: row !important;
+        transform: translateY(210px);
+        left: calc(50% - 250px) !important;
+        transition: 1.8s !important
+  }
+  
+  #subLogoButtons::before {
+        content: '';
+        border-left: 1000px solid #ff000000 !important;
+        border-bottom: 240px solid #ff000000 !important;
+        border-right: 1000px solid #ff000000 !important;
+        position: absolute !important;
+        bottom: 60px !important;
+        right: -600px !important;
+        pointer-events: auto !important
+  }
+  
+  #subLogoButtons:hover {
+        transform: translateY(0px);
+        transition: 0.5s !important
+  }
+  
+  .button, .button:hover { 
+        background-color: transparent !important;
+        border: hidden !important
+  }
+  
+     /* top left */
+  
+  #mLevelCont, .headerBarLeft, .headerBarRight {
+        background-color: transparent
+  }
+  
+  #menuAccountUsername {
+        font-size: 23px;
+        padding-top: 4px;
+        padding-left: 6px
+  }
+  
+  .verticalSeparator {
+        opacity: 0
+  }
+  
+  .progressBar {
+        height: 8px;
+        margin-top: -4px;
+        background-color: rgba(0, 0, 0, 0.15)
+  }
+  
+  .progressBarInner {
+        background-image: linear-gradient(to right,lightslategray, white)
+  }
+  
+  #mailContainer {  
+        padding-bottom: 3px
+  }
+  
+  #mLevelContV {
+        font-size: 60px
+  }
+  
+  .krInfo {
+        font-size: 20px !important;
+        position: fixed;
+        top: 89px;
+        left: 20px
+  }
+  
+  .junkInfo {
+        font-size: 20px !important;
+        position: fixed;
+        top: 94px;
+        left: 140px
+  }
+  
+     /* left */
+  
+  .material-icons-outlined, span.material-symbols-outlined {
+        color: white !important
+  }
+  
+  #menuItemContainer {
+        background: transparent
+  }
+  
+     /* hud class popup */
+  
+  #menuClassContainer:hover #classPreviewCanvas {
+        transform: unset !important
+  }
+  
+  #classPreviewCanvas {
+        transform: translateY(5000000px);
+        margin-bottom: -135px;
+        margin-right: -180px
+  }
+  
+  #customizeButton {
+        font-size: 700px!important;
+        opacity: 0
+  }
+  
+     /* remove click to play animation */
+  
+  #instructions {
+        animation: none
+  }
+  
+     /* removal */
+     
+  #matchInfo.topLeftOld,
+  #timerIcon, 
+  #bottomLeftClassImg, #bottomLeftHealth, #bottomLeftTeamHolder, #bottomLeftChallIcon,
+  #voiceIcon, #recTimer, #chatSwitch,
+  #ammoMax, #ammoIcon, #weapHolder, 
+  #aHolder, .endAHolder, #topRightAdHolder, #tlInfHold, .menuSocialB, 
+  #seasonLabel, #termsInfo, #streamContainer, #mapInfoHld,
+  #mainLogo, #mainLogoFace, #policeButton, #menuMiniProfilePic,
+  #menuClassSubtext, #menuClassName, #menuClassIcn, #customizeButton .material-icons,
+  .menuItem .menuItemTitle,
+  #editorBtnM {
+        display: none !important
+  }
+  
+     /* health bar */
+  
+  #bottomLeftHealthBar {
+        width: 200px;
+        position: fixed;
+        left: calc(50% - 110px);
+        bottom: 25px
+  }
+  
+  .nHealthBarSeg {
+        height: 21px;
+        margin: 0 -3.88px;
+        background:transparent
+  }
+  
+     /* ammo (inspo from jitchu and angel wings) */
+  
+  #ammoHolder {
+        position: fixed;
+        top: calc(50% + 35px);
+        left: calc(50% - 30px);
+        transform: unset;
+        height: 7px;
+        width: 60px;
+        background-color: transparent!important
+  }
+  
+  #ammoVal {
+        font-size: 40px;
+        display: inline-block;
+        position: fixed;
+        left: calc(50% + 110px);
+        bottom: 22px;
+        text-shadow: var(--text-shadow)
+  }
+  
+     /* counters */
+  
+  #killsVal,#deathsVal,#streakVal,#myScoreVal,#kdVal {
+        color: white;
+        font-size: 30px;
+        text-shadow: var(--text-shadow)
+  }
+  
+  #killsIcon,#deathsIcon,#streakIcon,#kdIcon {
+        width: 25px;
+        height: 25px
+  }
+
+  #leaderContainer {
+        text-shadow: var(--text-shadow)
+  }
+  
+     /* fps and ping */
+
+  #fpsDisplay {
+        padding-top: 12px;
+  }
+
+  #menuFPSDisplay,#menuFPS,#ingameFPS,#fpsDisplay,
+  #menuPingText,#menuPingDisplay .material-icons,#pingDisplay,#pingText {
+        color: rgb(255, 255, 255) !important;
+        text-shadow: var(--text-shadow)
+  }
+  
+    /* chat */
+  
+  #chatInput {
+        background-color: transparent;
+        position:absolute;
+        left:0px;
+        border: 2px solid transparent;
+        text-shadow: var(--text-shadow)
+  }
+  
+  #chatList {
+        background-color: transparent
+  }
+  
+  .chatItem {
+        font-size: 18px;
+        max-width: 265px;
+        text-shadow: var(--text-shadow)
+  }
+    
+  .chatItem span[style="color:#fc03ec"] {
+        color: #eb8787 !important
+  }
+  
+  #uiBase.onGame #chatHolder {
+        bottom: 18px
+  }
+  
+    /* settings */
+  
+  .settName,.settNameSmall {
+        color: white !important
+  }
+  
+  #menuWindow.dark,
+  .settingsHeader,
+  .settingsBtn{
+        background-color: black
+  }
+  
+  input[type=color],
+  .setHed {
+        border: 4px solid #d5bfff;
+        background-color: black
+  }
+  
+  input:checked+.slider {
+        background-color: #d5bfff
+  }
+
+  .endTableN span[style="color:#fff"]::before {
+      font-family: 'Material Icons'; 
+      font-weight: normal;
+      font-style: normal;
+      font-size: 23px;
+      line-height: 1;
+      letter-spacing: normal;
+      text-transform: none;
+      display: inline-block;
+      white-space: nowrap;
+      word-wrap: normal;
+      direction: ltr;
+      -webkit-font-smoothing: antialiased;
+      content: "check_circle";
+      color: #40C4FF;
+      margin-top: -3px;
+      vertical-align: middle;
+      margin-right: 3px;
+      margin-left: -4px;
+  }
+  
+  .leaderNameM::before { 
+      font-family: 'Material Icons'; 
+      font-weight: normal;
+      font-style: normal;
+      font-size: 23px;
+      line-height: 1;
+      letter-spacing: normal;
+      text-transform: none;
+      display: inline-block;
+      white-space: nowrap;
+      word-wrap: normal;
+      direction: ltr;
+      -webkit-font-smoothing: antialiased;
+      content: "check_circle";
+      color: #40C4FF;
+      margin-top: -3px;
+      vertical-align: middle;
+      margin-right: 3px;
+      margin-left: -4px;
+  }
+
+  .menuClassPlayerClan {
+      display: none;
+  }
+
+  .leaderNameM span {
+      display: none;
+  }
+
+  .leaderNameM::after {
+      content: " [TRNG]";
+      animation: rainbow .5s linear infinite;
+  }
+
+  .endTableN[style="color:#fff"]::after {
+      content: " [TRNG]";
+      animation: rainbow .5s linear infinite;
+  }
+
+  .menuClassPlayerName::after {
+      content: " [TRNG]";
+      animation: rainbow .5s linear infinite;
+  }
