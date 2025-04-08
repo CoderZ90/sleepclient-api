@@ -10,6 +10,16 @@
     "css": "* { color: red !important; }"
   },
   {
+    "name": "Complete BLACK",
+    "image": "",
+    "css": "* { color: black !important; }"
+  },
+  {
+    "name": "Removal + FPS",
+    "image": "",
+    "css": "@import url(\"https://sleepclient-api.pages.dev/css/removalAndCustom.css\");"
+  },
+  {
     "name": "MTZ",
     "image": "",
     "css": "@import url(\"https://sleepclient-api.pages.dev/css/mtzCss.css\");"
