@@ -1,0 +1,1020 @@
+/* CSS */
+/* @creator/author - Su7 / Su7#2250 */
+/* Css for Env_Clan */
+
+/* --------------------*/
+/* @editor T3 */
+/* @un_dev - TH3MAG / TH3MAG#4276 */
+/* @notes So you see what does what */
+
+/* --------------------*/
+/* Css_Private */
+/* Don't take or share codes pls */
+/* Also dont take credits for it */
+
+/* Only ones that can do so is the creators wich is { Su7 } and { TH3MAG }
+/* Hope you enjoy the css */
+
+/* --------------------- */
+/* Fixes Done By Violence [TRNG] (Violence.rizz) */
+/* ---------------------*/
+@import url(https://envyxyz.github.io/removal/removal.css);
+
+:root {
+	--accent: #fff;
+	--backgroundColour: #00005 !important;
+	--weapon-icon-brightness: "40%";
+}
+
+div#headerRight.headerBarRight.headerBar { display: none; }
+
+div#krDiscountAd.youNewDiv { display: none; }
+div#rankedPop { display: none !important; }
+div#newsHolder { display: none; }
+div#mapInfo { display: none; }
+div#termsInfo { display: none; }
+div#rankedSoonTm { display: none; }
+div#aContainer { display: none !important; }
+div#aMerger { display: none !important; }
+div#voiceDisplay { display: none; }
+div#chatSwitch.material-icons::after { display: none; }
+div#rankedBlog.youNewDiv { display: none; }
+div#updateAd.youNewDiv { display: none !important; }
+div#newUserGuide.youNewDiv { display: none; }
+div#streamContainer { display: none; }
+div#bundlePop { display: none !important; }
+
+/* Main Logo + Season Txt */
+#mainLogo {
+    content: url(https://i.postimg.cc/MTbwWZWM/logo-0.png);
+}
+
+#seasonLabel { display: none;}
+
+/* FONT */
+@font-face {
+	font-family: gamefont;
+	src: url(https://fonts.gstatic.com/s/poppins/v15/pxiByp8kv8JHgFVrLEj6Z1xlFQ.woff2);
+}
+
+/*custom cursor*/
+
+* {
+    cursor: url(https://i.postimg.cc/hjqgWQqR/my-mouse-pointer.png), auto!important;
+}
+
+/* Screen To Gray White */
+}
+#loadHeader {
+    display: none;
+}
+#loadTipsHolder {
+    display: none;
+}
+#loadInfoRHolder {
+    display: none;
+}
+#loadInfoLHolder {
+    display: none;
+}
+#lC-cont {
+    display: none;
+}
+#loadGamNm {
+    display: none;
+}
+#windowHolder.popupWin {
+    backdrop-filter: blur(0px);
+    background-color: transparent;    
+}
+#instructionHolder {
+  backdrop-filter: saturate(0) blur(5px);
+}
+
+#editorBtn {
+    display: none!important;
+}
+
+#gameNameHolder {
+    pointer-events: all;
+    font-size: 0;
+    color: transparent;
+    transition: 0.5s;
+}
+
+#gameNameHolder:hover {
+    font-size: 36px;
+    color: #fff;
+}
+
+#gameNameHolder::after {
+    content: "CSS BY Su7 + TH3MAG";
+    display: block;
+    font-family: 'ISOCP';
+}
+
+/* Host Server etc on right side */
+#faceItIconM,#rankedSoonTm,.headerBarRight,#infoHider,#newsHolder,#aHider {
+    display:none !important;
+}
+
+#subLogoButtons {
+    display:inline-flex;
+    flex-direction:column;
+    height:100%;
+    width:200px;
+    transform:none;
+    left:unset;
+    bottom:unset;
+    right:0;
+    top:0;
+    background-color:rgba(0,0,0,0.5);
+}
+
+#subLogoButtons .button {
+    height:-webkit-fill-available;
+    width:-webkit-fill-available;
+    border:none !important;
+    background-color:transparent;
+    padding:0 !important;
+    margin:0;
+    transform:none;
+    border-radius:0;
+    display:inline-flex;
+    justify-content:center;
+    align-items:center;
+    font-size:20px !important;
+    transition:font-size 0.5s;
+}
+
+#subLogoButtons .button:hover {
+    font-size:25px !important;
+    transition:font-size 0.5s;
+}
+
+#menuClassContainer {
+    transform:none;
+    top:unset;
+    left:unset;
+    bottom:20px;
+    right:250px;
+}
+
+/* Custom Chat */
+#chatInput::placeholder{
+    color: transparent;
+}
+
+#chatInputHolder::before{
+    content: "Say some";
+    position: absolute;
+    color: #fff;
+    bottom: 17px;
+    left: 70px;
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+#chatHolder:focus-within #chatInputHolder::before{
+    opacity: 0;
+}
+
+/* Class Xp Etc */
+
+div.classXPBar { background: black; }
+div.clsXPBarC { background: magenta; }
+div.classCard { color: white;
+background: transparent; }
+div#menuWindow.dark { background: #373737; }
+div#selectorContainer { background: gray; }
+
+/* Left Side colour */
+
+.material-icons-outlined,
+.menBtnIcn{
+	color: magenta !important;
+}
+
+/* FPS PING ETC */
+#pingIcon {
+    display:none;
+}
+
+#fpsDisplay {
+    visibility:hidden;
+}
+
+#ingameFPS {
+    visibility:visible;
+}
+
+#ingameFPS::before {
+    content:'fps: ';
+}
+#pingDisplay {
+  /* Hide the original "PING" text */
+  font-size: 0;
+}
+#pingText::before {
+    content:'ping: ';
+}
+
+#pingText:after {
+    content:' ms';
+}
+
+/* Customize cool */
+.classCard {
+  background-color: transparent;
+  height: 50px;
+  width: 370px;
+  margin-left: 15px;
+  margin-right: 15px;
+  transition-duration: .2s;
+}
+
+.classCard:hover {
+  transition-duration: .3s;
+  height: 90px;
+  transition-delay: .0747s;
+}
+
+.className {
+  font-size: 24px;
+  left: 50px;
+  transition-duration: .2s;
+}
+
+.classCard:hover .className {
+  left: 86px;
+  transition-duration: .3s;
+  transition-delay: .0747s;
+}
+
+.classWeap {
+  font-size: 13px;
+  left: 50px;
+  top: 45px;
+  text-shadow: 3px 2px 1px var(--backgroundColour), -2px 2px 1px var(--backgroundColour), 3px -2px 1px var(--backgroundColour), -2px -2px 1px var(--backgroundColour);
+  transition-duration: .2s;
+}
+
+.classImgH {
+  left: -8px;
+  top: -8px;
+}
+
+.classImgC {
+  width: 70px;
+  background-color: rgba(0,0,0,.15);
+  border: 5px outset rgba(0,0,0,.05);
+}
+
+.classHP {
+  display: none;
+}
+
+.classLvl {
+  font-size: 18px;
+  padding: 1px;
+  left: 4px;
+}
+
+.clsXPBarV {
+  font-size: 18px;
+  text-shadow: -1px -1px 0 #202020, 1px -1px 0 #202020, -1px 1px 0 #202020, 1px 1px 0 #202020;
+  top: 1px;
+}
+
+.classCard[onclick="selectClass(0)"] .classWeap {
+  font-size: 0px;
+}
+.classCard[onclick="selectClass(0)"] {
+  background-color: #3d3d3d;
+}
+.classCard[onclick="selectClass(0)"] .className:after {
+  content: " • AK";
+}
+.classCard[onclick="selectClass(0)"] .classWeap:after {
+  content: "100HP • 28 • 23 DMG • 120ms • 1.5s • Sec";
+  font-size: 14px;
+}
+.classCard[onclick="selectClass(0)"] .classImgC {
+  width: 32px;
+  transition-duration: .2s;
+}
+.classCard[onclick="selectClass(0)"]:hover .classImgC {
+  width: 70px;
+  transition-duration: .3s;
+  transition-delay: .0747s;
+}
+.classCard[onclick="selectClass(0)"]:hover .classWeap {
+  left: 86px;
+  transition-duration: .3s;
+  transition-delay: .0747s;
+}
+
+.classCard[onclick="selectClass(1)"] .classWeap {
+  font-size: 0px;
+}
+.classCard[onclick="selectClass(1)"] {
+  background-color: #9c6a45;
+}
+.classCard[onclick="selectClass(1)"] .className:after {
+  content: " • Sniper";
+}
+.classCard[onclick="selectClass(1)"] .classWeap:after {
+  content: "60HP • 3 • 106 DMG • 1s • 1.9s • Sec";
+  font-size: 14px;
+}
+.classCard[onclick="selectClass(1)"] .classImgC {
+  width: 32px;
+  transition-duration: .2s;
+}
+.classCard[onclick="selectClass(1)"]:hover .classImgC {
+  width: 70px;
+  transition-duration: .3s;
+  transition-delay: .0747s;
+}
+.classCard[onclick="selectClass(1)"]:hover .classWeap {
+  left: 86px;
+  transition-duration: .3s;
+  transition-delay: .0747s;
+}
+
+.classCard[onclick="selectClass(2)"] .classWeap {
+  font-size: 0px;
+}
+.classCard[onclick="selectClass(2)"] {
+  background-color: #5d8eb8;
+}
+.classCard[onclick="selectClass(2)"] .className:after {
+  content: " • SMG";
+}
+.classCard[onclick="selectClass(2)"] .classWeap:after {
+  content: "90HP • 30 • 18 DMG • 95ms • 1s • WJ";
+  font-size: 14px;
+}
+.classCard[onclick="selectClass(2)"] .classImgC {
+  width: 32px;
+  transition-duration: .2s;
+}
+.classCard[onclick="selectClass(2)"]:hover .classImgC {
+  width: 70px;
+  transition-duration: .3s;
+  transition-delay: .0747s;
+}
+.classCard[onclick="selectClass(2)"]:hover .classWeap {
+  left: 86px;
+  transition-duration: .3s;
+  transition-delay: .0747s;
+}
+
+.classCard[onclick="selectClass(3)"] .classWeap {
+  font-size: 0px;
+}
+.classCard[onclick="selectClass(3)"] {
+  background-color: #586849;
+}
+.classCard[onclick="selectClass(3)"] .className:after {
+  content: " • LMG";
+}
+.classCard[onclick="selectClass(3)"] .classWeap:after {
+  content: "180HP • 60 • 18 DMG • 130ms • 3.3s • -";
+  font-size: 14px;
+}
+.classCard[onclick="selectClass(3)"] .classImgC {
+  width: 32px;
+  transition-duration: .2s;
+}
+.classCard[onclick="selectClass(3)"]:hover .classImgC {
+  width: 70px;
+  transition-duration: .3s;
+  transition-delay: .0747s;
+}
+.classCard[onclick="selectClass(3)"]:hover .classWeap {
+  left: 86px;
+  transition-duration: .3s;
+  transition-delay: .0747s;
+}
+
+.classCard[onclick="selectClass(4)"] .classWeap {
+  font-size: 0px;
+}
+.classCard[onclick="selectClass(4)"] {
+  background-color: #495b68;
+}
+.classCard[onclick="selectClass(4)"] .className:after {
+  content: " • Shotgun";
+}
+.classCard[onclick="selectClass(4)"] .classWeap:after {
+  content: "90HP • 2 • 50(x5) DMG • 450ms • 1.1s • Sec";
+  font-size: 14px;
+}
+.classCard[onclick="selectClass(4)"] .classImgC {
+  width: 32px;
+  transition-duration: .2s;
+}
+.classCard[onclick="selectClass(4)"]:hover .classImgC {
+  width: 70px;
+  transition-duration: .3s;
+  transition-delay: .0747s;
+}
+.classCard[onclick="selectClass(4)"]:hover .classWeap {
+  left: 86px;
+  transition-duration: .3s;
+  transition-delay: .0747s;
+}
+
+.classCard[onclick="selectClass(5)"] .classWeap {
+  font-size: 0px;
+}
+.classCard[onclick="selectClass(5)"] {
+  background-color: #8b735a;
+}
+.classCard[onclick="selectClass(5)"] .className:after {
+  content: " • Revolver";
+}
+.classCard[onclick="selectClass(5)"] .classWeap:after {
+  content: "100HP • 6 • 66 DMG • 450ms • .9s • -";
+  font-size: 14px;
+}
+.classCard[onclick="selectClass(5)"] .classImgC {
+  width: 32px;
+  transition-duration: .2s;
+}
+.classCard[onclick="selectClass(5)"]:hover .classImgC {
+  width: 70px;
+  transition-duration: .3s;
+  transition-delay: .0747s;
+}
+.classCard[onclick="selectClass(5)"]:hover .classWeap {
+  left: 86px;
+  transition-duration: .3s;
+  transition-delay: .0747s;
+}
+
+.classCard[onclick="selectClass(6)"] .classWeap {
+  font-size: 0px;
+}
+.classCard[onclick="selectClass(6)"] {
+  background-color: #91bf6d;
+}
+.classCard[onclick="selectClass(6)"] .className:after {
+  content: " • Semi";
+}
+.classCard[onclick="selectClass(6)"] .classWeap:after {
+  content: "90HP • 8 • 35 DMG • 150ms • 1.5s • Sec";
+  font-size: 14px;
+}
+.classCard[onclick="selectClass(6)"] .classImgC {
+  width: 32px;
+  transition-duration: .2s;
+}
+.classCard[onclick="selectClass(6)"]:hover .classImgC {
+  width: 70px;
+  transition-duration: .3s;
+  transition-delay: .0747s;
+}
+.classCard[onclick="selectClass(6)"]:hover .classWeap {
+  left: 86px;
+  transition-duration: .3s;
+  transition-delay: .0747s;
+}
+
+.classCard[onclick="selectClass(7)"] .classWeap {
+  font-size: 0px;
+}
+.classCard[onclick="selectClass(7)"] {
+  background-color: #84e535;
+}
+.classCard[onclick="selectClass(7)"] .className:after {
+  content: " • RPG";
+}
+.classCard[onclick="selectClass(7)"] .classWeap:after {
+  content: "130HP • 3 • 50+ DMG • 320ms • 1.5s • Sec";
+  font-size: 14px;
+}
+.classCard[onclick="selectClass(7)"] .classImgC {
+  width: 32px;
+  transition-duration: .2s;
+}
+.classCard[onclick="selectClass(7)"]:hover .classImgC {
+  width: 70px;
+  transition-duration: .3s;
+  transition-delay: .0747s;
+}
+.classCard[onclick="selectClass(7)"]:hover .classWeap {
+  left: 86px;
+  transition-duration: .3s;
+  transition-delay: .0747s;
+}
+
+.classCard[onclick="selectClass(8)"] .classWeap {
+  font-size: 0px;
+}
+.classCard[onclick="selectClass(8)"] {
+  background-color: #73748a;
+}
+.classCard[onclick="selectClass(8)"] .className:after {
+  content: " • Uzis";
+}
+.classCard[onclick="selectClass(8)"] .classWeap:after {
+  content: "110HP • 28 • 15 DMG • 70ms • 1.3s • WJ";
+  font-size: 14px;
+}
+.classCard[onclick="selectClass(8)"] .classImgC {
+  width: 32px;
+  transition-duration: .2s;
+}
+.classCard[onclick="selectClass(8)"]:hover .classImgC {
+  width: 70px;
+  transition-duration: .3s;
+  transition-delay: .0747s;
+}
+.classCard[onclick="selectClass(8)"]:hover .classWeap {
+  left: 86px;
+  transition-duration: .3s;
+  transition-delay: .0747s;
+}
+
+.classCard[onclick="selectClass(9)"] .classWeap {
+  font-size: 0px;
+}
+.classCard[onclick="selectClass(9)"] {
+  background-color: transparent;
+}
+.classCard[onclick="selectClass(9)"] .className:after {
+  content: " • Knife";
+}
+.classCard[onclick="selectClass(9)"] .classWeap:after {
+  content: "120HP • ∞ • 50 DMG • 250ms • - • WJ";
+  font-size: 14px;
+}
+.classCard[onclick="selectClass(9)"] .classImgC {
+  width: 32px;
+  transition-duration: .2s;
+}
+.classCard[onclick="selectClass(9)"]:hover .classImgC {
+  width: 70px;
+  transition-duration: .3s;
+  transition-delay: .0747s;
+}
+.classCard[onclick="selectClass(9)"]:hover .classWeap {
+  left: 86px;
+  transition-duration: .3s;
+  transition-delay: .0747s;
+}
+
+.classCard[onclick="selectClass(10)"] .classWeap {
+  font-size: 0px;
+}
+.classCard[onclick="selectClass(10)"] {
+  background-color: #666666;
+}
+.classCard[onclick="selectClass(10)"] .className:after {
+  content: " • Deagle";
+}
+.classCard[onclick="selectClass(10)"] .classWeap:after {
+  content: "60HP • 7 • 45 DMG • 450ms • 1s • -";
+  font-size: 14px;
+}
+.classCard[onclick="selectClass(10)"] .classImgC {
+  width: 32px;
+  transition-duration: .2s;
+}
+.classCard[onclick="selectClass(10)"]:hover .classImgC {
+  width: 70px;
+  transition-duration: .3s;
+  transition-delay: .0747s;
+}
+.classCard[onclick="selectClass(10)"]:hover .classWeap {
+  left: 86px;
+  transition-duration: .3s;
+  transition-delay: .0747s;
+}
+
+.classCard[onclick="selectClass(11)"] .classWeap {
+  font-size: 0px;
+}
+.classCard[onclick="selectClass(11)"] {
+  background-color: #f5da59;
+}
+.classCard[onclick="selectClass(11)"] .className:after {
+  content: " • Crossbow";
+}
+.classCard[onclick="selectClass(11)"] .classWeap:after {
+  content: "100HP • 1 • 200 DMG • - • 0.9+s • Sec";
+  font-size: 14px;
+}
+.classCard[onclick="selectClass(11)"] .classImgC {
+  width: 32px;
+  transition-duration: .2s;
+}
+.classCard[onclick="selectClass(11)"]:hover .classImgC {
+  width: 70px;
+  transition-duration: .3s;
+  transition-delay: .0747s;
+}
+.classCard[onclick="selectClass(11)"]:hover .classWeap {
+  left: 86px;
+  transition-duration: .3s;
+  transition-delay: .0747s;
+}
+
+.classCard[onclick="selectClass(12)"] .classWeap {
+  font-size: 0px;
+}
+.classCard[onclick="selectClass(12)"] {
+  background-color: #ea7120;
+}
+.classCard[onclick="selectClass(12)"] .className:after {
+  content: " • Famas";
+}
+.classCard[onclick="selectClass(12)"] .classWeap:after {
+  content: "100HP • 30 • 28(x3) DMG • 280ms • 1.2s • Sec";
+  font-size: 14px;
+}
+.classCard[onclick="selectClass(12)"] .classImgC {
+  width: 32px;
+  transition-duration: .2s;
+}
+.classCard[onclick="selectClass(12)"]:hover .classImgC {
+  width: 70px;
+  transition-duration: .3s;
+  transition-delay: .0747s;
+}
+.classCard[onclick="selectClass(12)"]:hover .classWeap {
+  left: 86px;
+  transition-duration: .3s;
+  transition-delay: .0747s;
+}
+
+.classCard[onclick="selectClass(13)"] .classWeap {
+  font-size: 0px;
+}
+.classCard[onclick="selectClass(13)"] {
+  background-color: #eeeeee;
+}
+.classCard[onclick="selectClass(13)"] .className:after {
+  content: " • Blaster";
+}
+.classCard[onclick="selectClass(13)"] .classWeap:after {
+  content: "100HP • 16 • 35 DMG • 160ms • 1.45s • WJ";
+  font-size: 14px;
+}
+.classCard[onclick="selectClass(13)"] .classImgC {
+  width: 32px;
+  transition-duration: .2s;
+}
+.classCard[onclick="selectClass(13)"]:hover .classImgC {
+  width: 70px;
+  transition-duration: .3s;
+  transition-delay: .0747s;
+}
+.classCard[onclick="selectClass(13)"]:hover .classWeap {
+  left: 86px;
+  transition-duration: .3s;
+  transition-delay: .0747s;
+}
+
+.classCard[onclick="selectClass(14)"] .classWeap {
+  font-size: 0px;
+}
+.classCard[onclick="selectClass(14)"] {
+  background-color: #f0c8c6;
+}
+.classCard[onclick="selectClass(14)"] .className:after {
+  content: " • Build Tool";
+}
+.classCard[onclick="selectClass(14)"] .classWeap:after {
+  content: "150HP • Build Tool uhh idk";
+  font-size: 14px;
+}
+.classCard[onclick="selectClass(14)"] .classImgC {
+  width: 32px;
+  transition-duration: .2s;
+}
+.classCard[onclick="selectClass(14)"]:hover .classImgC {
+  width: 70px;
+  transition-duration: .3s;
+  transition-delay: .0747s;
+}
+.classCard[onclick="selectClass(14)"]:hover .classWeap {
+  left: 86px;
+  transition-duration: .3s;
+  transition-delay: .0747s;
+}
+
+.classCard[onclick="selectClass(15)"] .classWeap {
+  font-size: 0px;
+}
+.classCard[onclick="selectClass(15)"] {
+  background-color: #feafcb;
+}
+.classCard[onclick="selectClass(15)"] .className:after {
+  content: " • Charge";
+}
+.classCard[onclick="selectClass(15)"] .classWeap:after {
+  content: "90HP • 1 • 15 DMG • 150ms • 1.4s • Sec";
+  font-size: 14px;
+}
+.classCard[onclick="selectClass(15)"] .classImgC {
+  width: 32px;
+  transition-duration: .2s;
+}
+.classCard[onclick="selectClass(15)"]:hover .classImgC {
+  width: 70px;
+  transition-duration: .3s;
+  transition-delay: .0747s;
+}
+.classCard[onclick="selectClass(15)"]:hover .classWeap {
+  left: 86px;
+  transition-duration: .3s;
+  transition-delay: .0747s;
+}
+
+
+.topRightCounters img,
+.topRightCounters .material-icons {
+    display: none!important;
+}
+
+.topRightCounters {
+    width: auto !important;
+    display: inline-flex;
+    flex-direction: column;
+    position: fixed;
+    right: 13px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.countIcon {
+    background-color: transparent;
+    margin-top: 15px;
+    font-size: 22px;
+    color: magenta;
+}
+
+.topRightCounters div::before {
+    display: block;
+    width: 20px;
+    text-align: center;
+    position: relative;
+    left: 16px;
+}
+
+#killCount::before {
+    content: '🔫' !important;
+}
+
+#deathCount::before {
+    content: '💀' !important;
+}
+
+#streakCount::before {
+    content: '☢️' !important;
+}
+
+#livesCount::before {
+    content: '🤍' !important;
+}
+
+#scoreCount::before {
+    content: '💯' !important;
+}
+
+#kdCount::before {
+	content: '🔪' !important;
+}
+
+/* Health + Ammo */
+/*Health*/
+
+#healthBar {
+    width: 400px;
+    display: inline-flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.healthBarSeg {
+    width: -webkit-fill-available;
+    margin-right: -1px;
+    border-radius: 0;
+    background-color: transparent;
+}
+
+.hpBSeg {
+    border-radius: 0;
+}
+
+/*Weapon Display*/
+:root{ 
+    --black: #000000;
+}
+
+.weapKey,.weapSkin, .weapStreakHolder, .weapStreakInner {
+    display: none !important;
+}
+
+.weapItem {
+    filter: drop-shadow(2px 2px var(--black)) drop-shadow(-2px -2px var(--black)) drop-shadow(-2px 2px var(--black)) drop-shadow(2px -2px var(--black));
+    transition-duration: 0.25s;
+    height: 0;
+    opacity: 0 !important;
+    background-color: transparent;
+}
+
+.weapIcon {
+    height: 50%;
+    width: 50%;
+}
+
+.weapItem[style*="1"] {
+    opacity: 1 !important;
+    height: 80px;
+}
+
+.weapItemInner {
+    background-color: transparent;
+}
+/* KPD */
+/* Private Made KPD */
+
+#policeButton {
+    margin: 0;
+    padding: 0;
+    height: 90px !important;
+    width: 90px !important;
+    color: #fff;
+    display: block;
+    position: fixed;
+    bottom: 25px;
+    right: 750px;
+    background-color: transparent !important;
+    box-shadow: none !important;
+    background-image: url(https://i.postimg.cc/SRShj0sZ/MARKE1.png);
+    background-size: cover;
+}
+
+#policeButton img {
+    margin: 0 !important;
+    height: 30px !important;
+    opacity: 0;
+}
+
+#gameMessage {
+    position:relative;
+    top:80px;
+}
+
+.material-icons-outlined {
+color: white !important
+}
+
+.topRightCounters img,
+.topRightCounters .material-icons {
+    display: none!important;
+}
+
+.topRightCounters {
+    width: auto !important;
+    display: inline-flex;
+    flex-direction: column;
+    position: fixed;
+    right: 13px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.countIcon {
+    background-color: transparent;
+    margin-top: 15px;
+    font-size: 22px;
+    color: white;
+}
+
+.topRightCounters div::before {
+    display: block;
+    width: 50px;
+    text-align: center;
+    position: relative;
+    left: 16px
+}
+
+/* *Account & Login*/ */
+
+.accountInput {
+    color: #fff;
+}
+
+.accountButton {
+    background-color: transparent;
+    color: var(--accent);
+    transition-duration: 0.25s;
+}
+
+.button.lgn {
+    width: auto !important;
+    padding: 20px 20px!important;
+    margin: 0px !important;
+    box-shadow: none !important;
+    background-color: transparent !important;
+    text-shadow: none !important;
+    color: var(--accent);
+	border: none !important;
+}
+
+/* Timer in game */ 
+
+#timerDisplay {
+    position: fixed;
+    left: 50%;
+    top: 0%;
+    transform: translateX(-50%);
+    background-color: transparent;
+    text-shadow: 2px 2px 0px #000 !important;
+}
+
+#timerVal {
+    font-size: 64px;
+    text-shadow: 2px 2px 0px #000 !important;
+}
+
+#timerIcon {
+    display: none;
+}
+
+#specNames, #specContr {
+    background-color: transparent;
+    border: 4px solid transparent;
+    text-shadow: 2px 2px #000;
+}
+#menuBtnProfile,#menuBtnShop {
+    font-size:0 !important;
+}
+
+#menuBtnProfile:after,#menuBtnShop:after {
+    font-size:24px !important;
+}
+
+#menuBtnProfile:after {
+    content:'Profile';
+}
+
+#menuBtnShop:after {
+    content:'Shop';
+}
+
+/* cool colour for kills headshots etc */
+.headShotChatIcon {
+    filter: brightness(0) drop-shadow(-2px 0px 1px magenta) drop-shadow(0px 0px 1px magenta) drop-shadow(2px 0px 1px magenta);
+}
+
+.thrownChatIcon {
+    filter: brightness(0) drop-shadow(-2px 0px 1px magenta) drop-shadow(0px 0px 1px magenta) drop-shadow(2px 0px 1px magenta);
+}
+
+.fistChatIcon {
+    filter: brightness(0) drop-shadow(-2px 0px 1px magenta) drop-shadow(0px 0px 1px magenta) drop-shadow(2px 0px 1px magenta);
+}
+
+.weaponChatIcon {
+    filter: brightness(0) drop-shadow(-2px 0px 1px magenta) drop-shadow(0px 0px 1px magenta) drop-shadow(2px 0px 1px magenta);
+}
+
+.meleeChatIcon {
+    filter: brightness(0) drop-shadow(-2px 0px 1px magenta) drop-shadow(0px 0px 1px magenta) drop-shadow(2px 0px 1px magenta);
+}
+
+#loadHeader {
+	display: none;
+}
+#loadTipsHolder {
+	display: none;
+}
+#loadInfoRHolder {
+	display: none;
+}
+#loadInfoLHolder {
+	display: none;
+}
+#lC-cont {
+	display: none;
+}
+#loadGamNm {
+	display: none;
+}
+#windowHolder.popupWin {
+    backdrop-filter: blur(0px);
+	background-color: transparent;	
+}
+#instructionHolder {
+  backdrop-filter: saturate(0) blur(5px);
+}
+
+#editorBtn {
+    display: none!important;
+}
