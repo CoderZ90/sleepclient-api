@@ -10,9 +10,9 @@
     "css": "* { color: red !important; }"
   },
   {
-    "name": "Complete BLACK",
+    "name": "Violence",
     "image": "",
-    "css": "* { color: black !important; }"
+    "css": "@import url(\"https://sleepclient-api.pages.dev/css/violence.css\");"
   },
   {
     "name": "Removal + FPS",
