@@ -87,9 +87,6 @@ div#bundlePop { display: none !important; }
     backdrop-filter: blur(0px);
     background-color: transparent;    
 }
-#instructionHolder {
-  backdrop-filter: saturate(0) blur(5px);
-}
 
 #editorBtn {
     display: none!important;
@@ -1010,9 +1007,6 @@ color: white !important
 #windowHolder.popupWin {
     backdrop-filter: blur(0px);
 	background-color: transparent;	
-}
-#instructionHolder {
-  backdrop-filter: saturate(0) blur(5px);
 }
 
 #editorBtn {
