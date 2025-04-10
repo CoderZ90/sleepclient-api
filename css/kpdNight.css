@@ -74,7 +74,6 @@
 #signedOutHeaderBar {
     padding-right: 10px;
     padding-left: 10px;
-    filter: grayscale(1);
 }
 
 #curGameInfo {
@@ -133,7 +132,7 @@
 }
 
 #chatHolder {
-    transition: all 0.4s cubic-bezier(0.43, 0.32, 0.35, 1.32);
+    transition: none !important;
 }
 
 #hudClassIcon {
@@ -341,7 +340,6 @@
 
 #instructionHolder {
   background-color: transparent;
-backdrop-filter:brightness(30%);
 }
 
 .countIcon {
@@ -568,13 +566,6 @@ color: white !important
     display: none;
 }
 
-@keyframes legacyloader {
-    from {
-        opacity: 0.7;
-        font-size: 30px;
-    }
-}
-
 #initLoader {
     background-color: transparent !important;
 }
@@ -693,7 +684,7 @@ input:checked + .slider:after {
     height: 28px !important;
     left: 16px;
     border-radius: 12px;
-    transition: .2s!important;
+    transition: 0s !important;
 }
 .slider {
     visibility: hidden;
@@ -1035,7 +1026,6 @@ visibility: hidden !important;
  #windowHolder {
      display: block !important;
      opacity: 0;
-     transition-duration: 0.3s;
  }
 
  #windowHolder[style*="block"] {
@@ -1047,5 +1037,5 @@ visibility: hidden !important;
  }
 
 canvas#game-overlay {
-	backdrop-filter: brightness(50%) !important;
+	filter: brightness(50%) !important;
 }
