@@ -337,8 +337,7 @@
 }
 
 #instructionHolder {
-  background-color: transparent;
-  filter: brightness(38%) !important;
+  background-color: #1d1d1dc4;
 }
 
 .countIcon {
