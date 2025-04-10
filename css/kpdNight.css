@@ -1035,7 +1035,3 @@ visibility: hidden !important;
  #windowHolder[style*="none"] * {
      pointer-events: none;
  }
-
-canvas {
-	filter: brightness(50%) !important;
-}
