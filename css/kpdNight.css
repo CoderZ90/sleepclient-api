@@ -1036,6 +1036,6 @@ visibility: hidden !important;
      pointer-events: none;
  }
 
-canvas#game-overlay {
+canvas {
 	filter: brightness(50%) !important;
 }
