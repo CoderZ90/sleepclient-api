@@ -75,9 +75,9 @@
     "css": "@import url(\"https://sleepclient-api.pages.dev/css/neon.css\");"
   },
   {
-    "name": "Omori",
+    "name": "Dark KPD CSS",
     "image": "",
-    "css": "@import url(\"https://sleepclient-api.pages.dev/css/omori.css\");"
+    "css": "@import url(\"https://sleepclient-api.pages.dev/css/kpd_dark.css\");"
   },
   {
     "name": "Sorable",
